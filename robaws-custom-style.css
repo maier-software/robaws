@@ -1,0 +1,169 @@
+
+.side-nav a {
+  font-size: 0.8rem;
+  height: 36px;
+}
+ul.side-nav i {
+  font-size: 1.6em;
+  width: 1.6rem;
+}
+i.left {
+  margin-right: 5px;
+}
+
+
+/* TOP NAV */
+header nav .nav-wrapper {
+  padding-left: 0;
+}
+.material-tooltip {
+  font-size: 75%;
+}
+
+
+
+/* --- MENÜ LINKS --- */
+
+.side-nav {
+  display: flex;
+  flex-flow: column;
+}
+/* Kunden */
+.side-nav li:nth-child(1) {
+  order: 1;
+}
+/* Projekte */
+.side-nav li:nth-child(3) {
+  order: 2;
+}
+/* Angebot */
+.side-nav li:nth-child(2) {
+  order: 3;
+}
+/* Aufträge */
+.side-nav li:nth-child(4) {
+  order: 4;
+}
+/* Serviceauftrag */
+.side-nav li:nth-child(6) {
+  order: 5;
+}
+
+/* Lieferanten */
+.side-nav li:nth-child(14) {
+  order: 6;
+  border-top: 1px solid #fff;
+}
+/* Bestellungen */
+.side-nav li:nth-child(15) {
+  order: 7;
+}
+/* Lieferscheine */
+.side-nav li:nth-child(5) {
+  order: 8;
+}
+
+/* Artikel */
+.side-nav li:nth-child(17) {
+  order: 9;
+  border-top: 1px solid #fff;
+}
+/* Geräte */
+.side-nav li:nth-child(18) {
+  order: 10;
+}
+/* Installationen */
+.side-nav li:nth-child(19) {
+  order: 11;
+}
+/* Lagerverwaltung */
+.side-nav li:nth-child(20) {
+  order: 12;
+}
+
+/* Projektplannung */
+.side-nav li:nth-child(23) {
+  order: 13;
+  border-top: 1px solid #fff;
+}
+/* Tagesplan */
+.side-nav li:nth-child(22) {
+  order: 14;
+}
+/* Mitarbeiter */
+.side-nav li:nth-child(21) {
+  order: 15;
+}
+/* Arbeitszeiten */
+.side-nav li:nth-child(9) {
+  order: 16;
+}
+
+/* Rechnungen */
+.side-nav li:nth-child(12) {
+  order: 17;
+  border-top: 1px solid #fff;
+}
+/* Eingangsrechnungen */
+.side-nav li:nth-child(16) {
+  order: 18;
+}
+/* Zahlungsausgleich */
+.side-nav li:nth-child(7) {
+  order: 19;
+}
+/* Mahnungen */
+.side-nav li:nth-child(8) {
+  order: 20;
+}
+
+/* EMPTY - Zeitregistrierung */
+.side-nav li:nth-child(10) {
+  order: 0;
+}
+/* EMPTY - Local Shipping / Transport */
+.side-nav li:nth-child(11) {
+  order: 0;
+}
+/* EMPTY - Monetazation / Kasse */
+.side-nav li:nth-child(13) {
+  order: 0;
+}
+
+/* Auswertung */
+.side-nav li:nth-child(24) {
+  order: 24;
+  border-top: 1px solid #fff;
+}
+
+
+
+
+
+/* Einstellungen */
+
+/* Menü */
+.row .col.s2 {
+  position: sticky;
+  top: 0;
+  width: 14%;
+}
+.row .col.s2 .collection li {
+  background-color: transparent !important;
+  border: 1px solid #333;
+  font-size: 0.8rem;
+  line-height: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.row .col.s2 .collection li:not(:first-child):hover {
+  background-color: gray !important;
+}
+.row .col.s2 .collection li a {
+  color: red !important;
+}
+.row .col.s2 .collection li i.left {
+  font-size: 1.6em;
+  width: 1.6rem;
+  line-height: 32px;
+}
