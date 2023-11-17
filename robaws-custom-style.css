@@ -273,9 +273,6 @@
 
 html, body {
     position: relative;
-    width: var(--width-xxl);
-    margin-left: auto !important;
-    margin-right: auto !important;
     background-color: var(--base-ultra-light);
 }
 
@@ -318,6 +315,9 @@ header {
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
     color: var(--secondary-dark) !important;
+}
+header nav {
+    width: var(--width-xxl); 
 }
 header nav .nav-wrapper {
     padding-left: 0;
