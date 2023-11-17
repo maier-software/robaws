@@ -196,6 +196,9 @@ header nav .nav-wrapper {
 * Settings Contents
 */
 
+.row .col.s10 {
+    width: 86%;
+}
 .robawsfield .material-label {
       font-size: 0.9rem;
       overflow-wrap: normal !important;
