@@ -371,7 +371,7 @@ body .side-nav li:hover {
     color: var(--secondary-dark) !important;
 }
 .side-nav li.active a {
-    background-color: var(--secondary) !important;
+    background-color: inherit !important;
     color: #fff !important;
 }
 ul.side-nav i {
