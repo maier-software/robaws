@@ -339,8 +339,7 @@ header nav ul a:hover {
 */
 
 .side-nav.blue-grey.darken-1 {
-    position: relative !important;
-    top: 0;
+    left: calc((100vw - var(--width-xxl)) / 2);
     background-color: var(--secondary-dark) !important;
 }
 .side-nav a {
