@@ -160,7 +160,7 @@ header nav .nav-wrapper {
   background-color: gray !important;
 }
 .row .col.s2 .collection li a {
-  color: red !important;
+  color: #333 !important;
 }
 .row .col.s2 .collection li i.left {
   font-size: 1.6em;
