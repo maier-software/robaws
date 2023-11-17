@@ -278,6 +278,11 @@ html, body {
     background-color: var(--base-ultra-light);
 }
 
+/* Loading Animation */
+#robaws-bootstrapping {
+    border-radius: var(--radius-full);
+}
+
 /* Main Container */
 main.grey.lighten-2 {
     background-color: var(--base-ultra-light) !important;
