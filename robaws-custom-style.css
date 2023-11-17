@@ -167,7 +167,7 @@ header nav .nav-wrapper {
 }
 .row .col.s2 .collection li {
       background-color: transparent !important;
-      border: 1px solid #9d9d9d;
+      border: 1px solid #919191;
       font-size: 0.8rem;
       line-height: 32px;
       padding-top: 0;
@@ -180,7 +180,7 @@ header nav .nav-wrapper {
       border-bottom: 0 !important;
 }
 .row .col.s2 .collection li:not(:first-child):hover {
-      background-color: gray !important;
+      background-color: #919191 !important;
 }
 .row .col.s2 .collection li a {
       color: #333 !important;
