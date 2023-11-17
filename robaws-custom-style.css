@@ -329,6 +329,9 @@ header nav ul a:hover {
     color: var(--secondary);
     border-radius: var(--radius-xs);
 }
+header nav i {
+    font-size: 1.6rem;
+}
 .material-tooltip {
     font-size: 75%;
 }
