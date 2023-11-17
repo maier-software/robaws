@@ -583,7 +583,7 @@ div[class*="j-c"] #tabComments > div > div > div {
       width: 14%;
 }
 .row .col.s2 .collection li {
-      background-color: var(--primary-dark) !important !important;
+      background-color: var(--black-trans-30) !important;
       font-size: 0.8rem;
       line-height: 32px;
       padding-top: 0;
