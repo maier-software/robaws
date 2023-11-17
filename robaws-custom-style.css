@@ -309,7 +309,8 @@ div[class*="j-c"] button {
 
 header {
     position: relative !important;
-    margin-top: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
