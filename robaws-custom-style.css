@@ -357,6 +357,13 @@ header nav i {
     left: calc((100vw - var(--width-xxl)) / 2) !important;
     background-color: transparent !important;
 }
+.side-nav li.active {
+    background-color: var(--secondary) !important;
+    color: #fff !important;
+}
+.side-nav li.active i {
+    color: #fff !important;
+}
 .side-nav a {
     font-size: 0.8rem;
     height: 36px;
