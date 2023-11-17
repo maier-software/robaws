@@ -32,12 +32,12 @@ header nav .nav-wrapper {
 .side-nav li:nth-child(1) {
   order: 1;
 }
-/* Projekte */
-.side-nav li:nth-child(3) {
-  order: 2;
-}
 /* Angebot */
 .side-nav li:nth-child(2) {
+  order: 2;
+}
+/* Projekte */
+.side-nav li:nth-child(3) {
   order: 3;
 }
 /* Aufträge */
