@@ -324,7 +324,7 @@
 ========================================================================== */
 
 /* Main Container */
-main {
+main.grey.lighten-2 {
     background-color: var(--base-ultra-light) !important;
 }
 
@@ -342,11 +342,14 @@ main {
 * Top Navbar
 */
 
-header nav {
-    background-color: transparent !important;
+header nav, header nav button {
+    background-color: var(--base-ultra-light) !important
 }
 header nav .nav-wrapper {
     padding-left: 0;
+}
+header .nav-wrapper a {
+    color: var(--secondary-dark);
 }
 .material-tooltip {
     font-size: 75%;
