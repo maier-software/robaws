@@ -327,6 +327,7 @@ header nav {
 header nav .nav-wrapper {
     padding-left: 0;
 }
+header nav .nav-wrapper a.button-collapse,
 header nav .nav-wrapper ul:not(.dropdown-content) li a {
     color: var(--secondary-dark) !important;
     padding: 0 12px;
