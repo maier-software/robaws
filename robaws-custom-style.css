@@ -281,7 +281,7 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping img {
-    border: 1.5rem solid #fff;
+    border: 2.5rem solid #fff;
     border-radius: var(--radius-circle);
 }
 
@@ -312,6 +312,7 @@ div[class*="j-c"] button {
 
 header {
     position: relative !important;
+    margin-top: 6px;
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
