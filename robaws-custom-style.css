@@ -159,6 +159,11 @@ div[class*="j-c"] > div.row > div.row:last-child {
 }
 div[class*="j-c"] > div.row > div.row:last-child > div {
       background-color: transparent !important;
+      box-shadow: none;
+      padding: 0;
+}
+div[class*="j-c"] > div.row > div.row:last-child > div > div {
+      padding: 0;
 }
 div[class*="j-c"] .tabs {
       background-color: transparent !important;
