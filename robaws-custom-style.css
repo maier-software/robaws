@@ -203,10 +203,14 @@ div[class*="j-c"] .tabs button {
       border: 1px solid #546e7a;
       color: #546e7a;
 }
+/**/
 div[class*="j-c"] #tabComments > div > div {
       background-color: transparent !important;
       text-align: center;
       min-height: 7rem;
+}
+div[class*="j-c"] #tabComments > div > div > div {
+      width: 100%;
 }
 
 
