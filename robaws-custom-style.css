@@ -304,7 +304,7 @@ div[class*="j-c"] button {
 */
 
 header {
-    position: relative;
+    position: relative !important;
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
@@ -331,7 +331,7 @@ header nav ul a:hover {
 * Left Sidebar
 */
 
-body ul.side-nav {
+.side-nav.blue-grey.darken-1 {
     position: relative;
     top: 0;
     background-color: var(--secondary-dark) !important;
