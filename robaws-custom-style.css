@@ -293,7 +293,8 @@ div[class*="j-c"] button {
     box-shadow: none;
 }
 
-.card {
+main .card {
+    background-color: var(--secondary-trans-10) !important;
     padding-top: 10px !important;
 }
 
