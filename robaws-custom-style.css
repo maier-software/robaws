@@ -341,7 +341,7 @@ main {
 /**
 * Left Sidebar
 */
-.side-nav {
+body ul.side-nav {
     background-color: var(--secondary-dark) !important;
 }
 .side-nav a {
