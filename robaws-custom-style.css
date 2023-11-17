@@ -272,6 +272,7 @@
 ========================================================================== */
 
 html, body {
+    position: relative;
     width: var(--width-xxl);
     margin-left: auto !important;
     margin-right: auto !important;
@@ -280,7 +281,7 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping img {
-    border: 1rem solid #fff;
+    border: 1.5rem solid #fff;
     border-radius: var(--radius-circle);
 }
 
