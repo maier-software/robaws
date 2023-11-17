@@ -342,7 +342,7 @@ main.grey.lighten-2 {
 * Top Navbar
 */
 
-header nav, header nav button {
+header nav.blue-grey.darken-3, header nav button {
     background-color: var(--base-ultra-light) !important
 }
 header nav .nav-wrapper {
