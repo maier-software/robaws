@@ -154,10 +154,10 @@ header nav .nav-wrapper {
 /**
 * Tabs
 */
-.row + .col.row {
+.row > .col.row {
       margin-top: 4rem;
 }
-.row + .col.row > div {
+.row > .col.row > div {
       background-color: transparent !important;
 }
 main .tabs {
