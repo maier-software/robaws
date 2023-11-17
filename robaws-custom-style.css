@@ -190,3 +190,12 @@ header nav .nav-wrapper {
       width: 1.6rem;
       line-height: 32px;
 }
+
+
+/**
+* Settings Contents
+*/
+
+.robawsfield .material-label {
+      font-size: 0.8rem;
+}
