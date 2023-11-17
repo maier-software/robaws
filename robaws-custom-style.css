@@ -417,7 +417,7 @@ i.left {
 /* Lieferanten */
 .side-nav li:nth-child(14) {
       order: 6;
-      border-top: 1px solid var(--base-trans-40);
+      border-top: 1px solid var(--secondary-dark-trans-40);
 }
 /* Bestellungen */
 .side-nav li:nth-child(15) {
@@ -467,7 +467,7 @@ i.left {
 /* Rechnungen */
 .side-nav li:nth-child(12) {
       order: 17;
-      border-top: 1px solid #fff;
+      border-top: var(--secondary-dark-trans-40);
 }
 /* Eingangsrechnungen */
 .side-nav li:nth-child(16) {
@@ -498,7 +498,7 @@ i.left {
 /* Auswertung */
 .side-nav li:nth-child(24) {
       order: 24;
-      border-top: 1px solid #fff;
+      border-top: var(--secondary-dark-trans-40);
 }
 
 
