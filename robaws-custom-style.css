@@ -157,6 +157,9 @@ header nav .nav-wrapper {
 .row + .col.row {
       margin-top: 4rem;
 }
+.row + .col.row > div {
+      background-color: transparent !important;
+}
 .tabs {
       background-color: transparent !important;
 }
