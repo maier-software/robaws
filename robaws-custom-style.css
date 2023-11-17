@@ -310,10 +310,10 @@ header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
     color: var(--secondary-dark) !important;
 }
-header .nav-wrapper {
+header nav .nav-wrapper {
     padding-left: 0;
 }
-header .nav-wrapper a {
+header nav .nav-wrapper a {
     color: var(--secondary-dark);
 }
 header nav ul a:hover {
