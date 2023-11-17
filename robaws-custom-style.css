@@ -487,10 +487,9 @@ div[class*="j-c"] .tabs .tab a.active {
       font-weight: bold;
 }
 /* Buttons */
-div[class*="j-c"] .tabs button {
-      background-color: transparent !important;
-      border: 1px solid #546e7a;
-      color: #546e7a;
+div[class*="j-c"] button {
+      background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
+      color: #fff;
 }
 /**/
 div[class*="j-c"] #tabComments > div > div {
