@@ -285,6 +285,9 @@ html, body {
 /* Main Container */
 main.grey.lighten-2 {
     background-color: var(--base-ultra-light) !important;
+    width: var(--width-xxl);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Buttons */
