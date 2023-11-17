@@ -323,6 +323,11 @@
       GLOBAL
 ========================================================================== */
 
+/* Main Container */
+main {
+    background-color: var(--base-ultra-light) !important;
+}
+
 /* Delete box-shadow */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
     box-shadow: none;
@@ -336,7 +341,9 @@
 /**
 * Left Sidebar
 */
-
+.side-nav {
+    background-color: var(--secondary-dark) !important;
+}
 .side-nav a {
       font-size: 0.8rem;
       height: 36px;
@@ -481,6 +488,8 @@ header nav .nav-wrapper {
 /* ==========================================================================
       MAIN PAGES
 ========================================================================== */
+
+
 
 /**
 * Last Row
