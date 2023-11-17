@@ -280,6 +280,7 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping img {
+    padding: var(--space-l);
     border-radius: var(--radius-circle);
 }
 
