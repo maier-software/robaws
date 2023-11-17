@@ -319,10 +319,7 @@ header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     color: var(--secondary-dark) !important;
 }
 header nav {
-    width: var(--width-xxl);
     border-bottom: 1px solid var(--secondary-dark-trans-40);
-    margin-left: auto;
-    margin-right: auto;
 }
 header nav .nav-wrapper {
     padding-left: 0;
@@ -353,7 +350,6 @@ header nav i {
 */
 
 .side-nav.blue-grey.darken-1 {
-    left: calc((100vw - var(--width-xxl)) / 2) !important;
     background-color: transparent !important;
 }
 .side-nav li.active {
