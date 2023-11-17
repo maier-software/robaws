@@ -157,7 +157,7 @@ header nav .nav-wrapper {
 div[class*="j-c"] > div.row > div.row:last-child {
       margin-top: 4rem;
 }
-div[class*="j-c"] > div.row > div.row:last-child {
+div[class*="j-c"] > div.row > div.row:last-child > div {
       background-color: transparent !important;
 }
 div[class*="j-c"] .tabs {
@@ -167,6 +167,12 @@ div[class*="j-c"] .tabs .tab a {
       color: #546e7a !important;
       font-weight: bold;
 }
+div[class*="j-c"] .tabs .tab a.active {
+      background-color: #546e7a !important;
+      color: #fff !important;
+      font-weight: bold;
+}
+
 
 
 
