@@ -307,7 +307,8 @@ header {
     position: relative;
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
-    background-color: var(--base-ultra-light) !important
+    background-color: var(--base-ultra-light) !important;
+    color: var(--secondary-ultra-dark) !important;
 }
 header .nav-wrapper {
     padding-left: 0;
