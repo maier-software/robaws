@@ -553,7 +553,7 @@ div[class*="j-c"] .tabs .tab a {
 }
 /* Tab Active */
 div[class*="j-c"] .tabs .tab a.active {
-      background-color: #546e7a !important;
+      background-color: var(--primary) !important;
       color: #fff !important;
       font-weight: bold;
 }
