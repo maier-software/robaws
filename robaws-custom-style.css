@@ -272,10 +272,10 @@
 ========================================================================== */
 
 html, body {
-    width: var(--width-xl);
+    width: var(--width-xxl);
     margin-left: auto !important;
     margin-right: auto !important;
-    var(--base-ultra-light)
+    background-color: var(--base-ultra-light);
 }
 
 /* Main Container */
@@ -308,7 +308,7 @@ header {
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
-    color: var(--secondary-ultra-dark) !important;
+    color: var(--secondary-dark) !important;
 }
 header .nav-wrapper {
     padding-left: 0;
