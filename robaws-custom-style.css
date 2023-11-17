@@ -276,6 +276,12 @@ main.grey.lighten-2 {
     background-color: var(--base-ultra-light) !important;
 }
 
+/* Buttons */
+div[class*="j-c"] button {
+      background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
+      color: #fff;
+}
+
 /* Delete box-shadow */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
     box-shadow: none;
@@ -293,11 +299,15 @@ main.grey.lighten-2 {
 header nav.blue-grey.darken-3, header nav button {
     background-color: var(--base-ultra-light) !important
 }
-header nav .nav-wrapper {
+header .nav-wrapper {
     padding-left: 0;
 }
 header .nav-wrapper a {
     color: var(--secondary-dark);
+}
+header nav ul a:hover {
+    background-color: var(--secondary-trans-20);
+    color: var(--secondary);
 }
 .material-tooltip {
     font-size: 75%;
@@ -445,10 +455,10 @@ i.left {
 
 
 
+
 /* ==========================================================================
       MAIN PAGES
 ========================================================================== */
-
 
 
 /**
@@ -486,11 +496,7 @@ div[class*="j-c"] .tabs .tab a.active {
       color: #fff !important;
       font-weight: bold;
 }
-/* Buttons */
-div[class*="j-c"] button {
-      background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
-      color: #fff;
-}
+
 /**/
 div[class*="j-c"] #tabComments > div > div {
       background-color: transparent !important;
