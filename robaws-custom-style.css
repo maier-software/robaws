@@ -312,8 +312,6 @@ div[class*="j-c"] button {
 
 header {
     position: relative !important;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
@@ -324,12 +322,15 @@ header nav {
     border-bottom: 1px solid var(--base-trans-40);
     margin-left: auto;
     margin-right: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 header nav .nav-wrapper {
     padding-left: 0;
 }
 header nav .nav-wrapper a {
-    color: var(--secondary-dark);
+    color: var(--secondary-dark) !important;
+    padding: 0 12px;
 }
 header nav ul a:hover {
     background-color: var(--secondary-trans-20);
