@@ -464,7 +464,7 @@ i.left {
 /* Rechnungen */
 .side-nav li:nth-child(12) {
       order: 17;
-      border-top: var(--secondary-dark-trans-40);
+      border-top: 1px solid var(--secondary-dark-trans-40);
 }
 /* Eingangsrechnungen */
 .side-nav li:nth-child(16) {
@@ -495,7 +495,7 @@ i.left {
 /* Auswertung */
 .side-nav li:nth-child(24) {
       order: 24;
-      border-top: var(--secondary-dark-trans-40);
+      border-top: 1px solid var(--secondary-dark-trans-40);
 }
 
 
