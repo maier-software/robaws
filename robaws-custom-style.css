@@ -163,7 +163,7 @@ header nav .nav-wrapper {
 ========================================================================== */
 
 /**
-* Tabs
+* Last Row
 */
 div[class*="j-c"] > div.row > div.row:last-child {
       margin-top: 4rem;
@@ -176,24 +176,38 @@ div[class*="j-c"] > div.row > div.row:last-child > div {
 div[class*="j-c"] > div.row > div.row:last-child > div > div {
       padding: 0;
 }
+/* Tab Container */
 div[class*="j-c"] div[id^="tab"] {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+/* Single Tab */
 div[class*="j-c"] .tabs {
       background-color: transparent !important;
 }
+/* Tab Labels */
 div[class*="j-c"] .tabs .tab a {
       color: #546e7a !important;
       font-size: 0.9rem;
       font-weight: bold;
 }
+/* Tab Active */
 div[class*="j-c"] .tabs .tab a.active {
       background-color: #546e7a !important;
       color: #fff !important;
       font-weight: bold;
 }
-
+/* Buttons */
+div[class*="j-c"] .tabs button {
+      background-color: transparent !important;
+      border: 1px solid #546e7a;
+      color: #546e7a;
+}
+div[class*="j-c"] #tabComments > div > div {
+      background-color: transparent !important;
+      text-align: center;
+      min-height: 7rem;
+}
 
 
 
