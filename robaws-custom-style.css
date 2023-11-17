@@ -278,7 +278,7 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping img {
-    border: 2.5rem solid #fff;
+    border: 2rem solid #fff;
     border-radius: var(--radius-circle);
 }
 
