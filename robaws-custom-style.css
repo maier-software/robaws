@@ -339,8 +339,25 @@ main {
 ========================================================================== */
 
 /**
+* Top Navbar
+*/
+
+header nav {
+    background-color: transparent !important;
+}
+header nav .nav-wrapper {
+    padding-left: 0;
+}
+.material-tooltip {
+    font-size: 75%;
+}
+
+
+
+/**
 * Left Sidebar
 */
+
 body ul.side-nav {
     background-color: var(--secondary-dark) !important;
 }
@@ -472,15 +489,7 @@ i.left {
 }
 
 
-/**
-* Top Navbar
-*/
-header nav .nav-wrapper {
-      padding-left: 0;
-}
-.material-tooltip {
-      font-size: 75%;
-}
+
 
 
 
