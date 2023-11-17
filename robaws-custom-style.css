@@ -313,6 +313,7 @@ div[class*="j-c"] button {
 header {
     position: relative !important;
     margin-top: 6px;
+    border-bottom: 1px solid var(--base-trans-40);
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
@@ -346,7 +347,7 @@ header nav i {
 */
 
 .side-nav.blue-grey.darken-1 {
-    left: calc((100vw - var(--width-xxl)) / 2);
+    left: calc((100vw - var(--width-xxl)) / 2) !important;
     background-color: var(--secondary-dark) !important;
 }
 .side-nav a {
