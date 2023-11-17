@@ -160,10 +160,10 @@ header nav .nav-wrapper {
 .row + .col.row > div {
       background-color: transparent !important;
 }
-.tabs {
+main .tabs {
       background-color: transparent !important;
 }
-.tabs .tab a {
+main .tabs .tab a {
       color: #546e7a !important;
       font-weight: bold;
 }
