@@ -340,7 +340,7 @@ header nav .button-collapse i {
     font-size: 2rem;
 }
 header nav i {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
 }
 .material-tooltip {
     font-size: 75%;
