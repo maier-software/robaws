@@ -156,6 +156,9 @@ header nav .nav-wrapper {
   padding-top: 0;
   padding-bottom: 0;
 }
+.row .col.s2 .collection li:first-child {
+  display: none;
+}
 .row .col.s2 .collection li:not(:first-child):hover {
   background-color: gray !important;
 }
