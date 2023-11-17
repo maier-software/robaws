@@ -310,14 +310,16 @@ div[class*="j-c"] button {
 header {
     position: relative !important;
     margin-top: 6px;
-    border-bottom: 1px solid var(--base-trans-40);
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
     color: var(--secondary-dark) !important;
 }
 header nav {
-    width: var(--width-xxl); 
+    width: var(--width-xxl);
+    border-bottom: 1px solid var(--base-trans-40);
+    margin-left: auto;
+    margin-right: auto;
 }
 header nav .nav-wrapper {
     padding-left: 0;
