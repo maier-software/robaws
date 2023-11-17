@@ -279,7 +279,7 @@ html, body {
 }
 
 /* Loading Animation */
-#robaws-bootstrapping {
+#robaws-bootstrapping img {
     border-radius: var(--radius-circle);
 }
 
