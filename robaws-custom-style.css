@@ -1,4 +1,10 @@
+/* ==========================================================================
+      NAVIGATION
+========================================================================== */
 
+/**
+* Left Sidebar
+*/
 .side-nav a {
   font-size: 0.8rem;
   height: 36px;
@@ -11,19 +17,7 @@ i.left {
   margin-right: 5px;
 }
 
-
-/* TOP NAV */
-header nav .nav-wrapper {
-  padding-left: 0;
-}
-.material-tooltip {
-  font-size: 75%;
-}
-
-
-
-/* --- MENÜ LINKS --- */
-
+/* --- LINKS --- */
 .side-nav {
   display: flex;
   flex-flow: column;
@@ -140,9 +134,33 @@ header nav .nav-wrapper {
 
 
 
-/* Einstellungen */
 
-/* Menü */
+
+/**
+* Top Navbar
+*/
+header nav .nav-wrapper {
+  padding-left: 0;
+}
+.material-tooltip {
+  font-size: 75%;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+      SETTINGS
+========================================================================== */
+
+/**
+* Settings Navigation
+*/
 .row .col.s2 {
   position: sticky;
   top: 0;
