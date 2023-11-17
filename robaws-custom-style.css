@@ -332,6 +332,8 @@ header nav ul a:hover {
 */
 
 body ul.side-nav {
+    position: relative;
+    top: 0;
     background-color: var(--secondary-dark) !important;
 }
 .side-nav a {
