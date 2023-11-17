@@ -271,6 +271,12 @@
       GLOBAL
 ========================================================================== */
 
+html, body {
+    width: var(--width-xl);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 /* Main Container */
 main.grey.lighten-2 {
     background-color: var(--base-ultra-light) !important;
@@ -308,6 +314,7 @@ header .nav-wrapper a {
 header nav ul a:hover {
     background-color: var(--secondary-trans-20);
     color: var(--secondary);
+    border-radius: var(--radius-xs);
 }
 .material-tooltip {
     font-size: 75%;
