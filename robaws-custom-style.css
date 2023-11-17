@@ -198,4 +198,5 @@ header nav .nav-wrapper {
 
 .robawsfield .material-label {
       font-size: 0.8rem;
+      overflow-wrap: normal;
 }
