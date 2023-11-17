@@ -365,10 +365,17 @@ header nav i {
 .side-nav li:hover {
     background-color: var(--secondary-trans-20) !important;
 }
-.side-nav a {
+.side-nav li a {
     font-size: 0.8rem;
     height: 36px;
     color: var(--secondary-dark) !important;
+}
+.side-nav li a:hover {
+    background-color: var(--secondary-trans-20) !important;
+}
+.side-nav li.active a {
+    background-color: var(--secondary) !important;
+    color: #fff !important;
 }
 ul.side-nav i {
     font-size: 1.6em;
