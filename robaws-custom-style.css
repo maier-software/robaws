@@ -282,14 +282,6 @@ html, body {
     border-radius: var(--radius-circle);
 }
 
-/* Main Container */
-main.grey.lighten-2 {
-    background-color: var(--base-ultra-light) !important;
-    width: var(--width-xxl);
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* Buttons */
 div[class*="j-c"] button {
       background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
@@ -507,7 +499,16 @@ i.left {
       MAIN PAGES
 ========================================================================== */
 
-/* Search bar */
+/**
+* Main Container 
+*/
+main.grey.lighten-2 {
+    background-color: var(--base-ultra-light) !important;
+}
+
+/**
+* Search bar
+*/
 .tablesearchmain.blue-grey.darken-3 {
     background-color: var(--secondary) !important;
 }
