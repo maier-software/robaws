@@ -595,14 +595,11 @@ div[class*="j-c"] #tabComments > div > div > div {
 .row .col.s2 .collection li:first-child {
       display: none;
 }
-.row .col.s2 .collection li:not(:last-child) {
-      border-bottom: 0 !important;
-}
 .row .col.s2 .collection li:not(:first-child):hover {
       background-color: #919191 !important;
 }
 .row .col.s2 .collection li a {
-      color: #333 !important;
+      color: #fff !important;
 }
 .row .col.s2 .collection li i.left {
       font-size: 1.6em;
