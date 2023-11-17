@@ -154,16 +154,16 @@ header nav .nav-wrapper {
 /**
 * Tabs
 */
-.row > .col.row {
+div[class*="j-c"] > div.row > div.row:last-child {
       margin-top: 4rem;
 }
-.row > .col.row > div {
+div[class*="j-c"] > div.row > div.row:last-child {
       background-color: transparent !important;
 }
-main .tabs {
+div[class*="j-c"] .tabs {
       background-color: transparent !important;
 }
-main .tabs .tab a {
+div[class*="j-c"] .tabs .tab a {
       color: #546e7a !important;
       font-weight: bold;
 }
