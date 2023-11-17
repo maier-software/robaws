@@ -512,6 +512,13 @@ i.left {
       MAIN PAGES
 ========================================================================== */
 
+/* Search bar */
+.tablesearchmain {
+    background-color: var(--secondary) !important;
+}
+.tablesearchmain swBox {
+    background-color: var(--white-trans-40) !important;
+}
 
 /**
 * Last Row
