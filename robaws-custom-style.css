@@ -333,7 +333,7 @@ header nav .nav-wrapper a {
 }
 header nav ul a:hover {
     background-color: var(--secondary-trans-20);
-    color: var(--secondary);
+    color: var(--secondary-hover) !important;
 }
 header nav .button-collapse i {
     font-size: 2rem;
