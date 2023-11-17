@@ -370,6 +370,7 @@ body .side-nav li:hover {
     font-size: 0.8rem;
     height: 36px;
     color: var(--secondary-dark) !important;
+    background-color: initial !important;
 }
 .side-nav li.active a {
     background-color: inherit !important;
