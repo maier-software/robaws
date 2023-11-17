@@ -165,6 +165,10 @@ div[class*="j-c"] > div.row > div.row:last-child > div {
 div[class*="j-c"] > div.row > div.row:last-child > div > div {
       padding: 0;
 }
+div[class*="j-c"] div[id^="tab"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 div[class*="j-c"] .tabs {
       background-color: transparent !important;
 }
