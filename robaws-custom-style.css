@@ -280,7 +280,7 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping {
-    border-radius: var(--radius-full);
+    border-radius: var(--radius-circle);
 }
 
 /* Main Container */
