@@ -364,6 +364,9 @@ header nav i {
 .side-nav li.active i {
     color: #fff !important;
 }
+.side-nav li:hover {
+    background-color: var(--secondary-trans-20) !important;
+}
 .side-nav a {
     font-size: 0.8rem;
     height: 36px;
