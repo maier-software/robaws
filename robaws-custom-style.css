@@ -275,6 +275,7 @@ html, body {
     width: var(--width-xl);
     margin-left: auto !important;
     margin-right: auto !important;
+    var(--base-ultra-light)
 }
 
 /* Main Container */
@@ -302,6 +303,9 @@ div[class*="j-c"] button {
 * Top Navbar
 */
 
+header {
+    position: relative;
+}
 header nav.blue-grey.darken-3, header nav button {
     background-color: var(--base-ultra-light) !important
 }
