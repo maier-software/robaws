@@ -264,7 +264,8 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping {
-	padding-top: 50% !important;
+	height: 100%;
+	/* padding-top: 50% !important; */
 }
 #robaws-bootstrapping img {
 	border: 2rem solid #fff;
