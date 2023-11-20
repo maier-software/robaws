@@ -267,6 +267,9 @@ html, body {
 	display: flex;
   	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
 }
 #robaws-bootstrapping img {
 	border: 2rem solid #fff;
@@ -290,6 +293,8 @@ main .card {
     background-color: var(--secondary-trans-10) !important;
     padding-top: 10px !important;
 }
+
+
 
 
 /* ==========================================================================
@@ -670,8 +675,7 @@ ul.tabs .tab a i {
 
 /* Field Input */
 .robawsfield .flexAll:not(.noWidth) {
-    width: auto !important;
-}
-.robawsfield .robaws-input-field-container {
+	width: auto !important;
 	margin-left: 16px;
 }
+
