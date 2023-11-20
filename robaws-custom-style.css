@@ -235,20 +235,6 @@
     --white-trans-70: rgba(255, 255, 255, 0.7);
     --white-trans-80: rgba(255, 255, 255, 0.8);
     --white-trans-90: rgba(255, 255, 255, 0.9);
-    --shade-white: #fff;
-    --shade-black: #000;
-    --width-xs: calc((128 * 0.1) * 1rem);
-    --width-s: calc((128 * 0.2) * 1rem);
-    --width-m: calc((128 * 0.4) * 1rem);
-    --width-l: calc((128 * 0.6) * 1rem);
-    --width-xl: calc((128 * 0.8) * 1rem);
-    --width-xxl: calc((128 * 0.9) * 1rem);
-    --width-vp-max: 128rem;
-    --width-content: 128rem;
-    --width-50: calc((128 / 2) * 1rem);
-    --width-full: 100%;
-    --content-width: var(--width-content);
-    --content-width-safe: min(var(--width-content), calc(100% - var(--section-padding-x) * 2));
     --radius-xs: 0.4444444444rem;
     --radius-s: 0.6666666667rem;
     --radius-m: 1rem;
@@ -308,40 +294,41 @@ main .card {
 */
 
 header {
-    position: relative !important;
-    padding-bottom: 6px;
+	position: relative !important;
+	padding-bottom: 6px;
 }
 header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
-    background-color: var(--base-ultra-light) !important;
-    color: var(--secondary-dark) !important;
+	background-color: var(--base-ultra-light) !important;
+	color: var(--secondary-dark) !important;
 }
 header nav {
-    border-bottom: 1px solid var(--secondary-dark-trans-40);
+	border-bottom: 1px solid var(--secondary-dark-trans-40);
 }
 header nav .nav-wrapper {
-    padding-left: 0;
+	padding-left: 0;
 }
 header nav .nav-wrapper a.button-collapse,
 header nav .nav-wrapper ul:not(.dropdown-content) li a {
-    color: var(--secondary-dark) !important;
-    padding: 0 12px;
+	color: var(--secondary-dark) !important;
+	padding: 0 12px;
 }
 header nav ul a:hover {
-    background-color: var(--secondary-trans-20);
-    color: var(--secondary-hover) !important;
+	background-color: var(--secondary-trans-20);
+	color: var(--secondary-hover) !important;
 }
 header nav .button-collapse i {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 header nav i {
-    font-size: 1.6rem !important;
+	font-size: 1.6rem !important;
 }
 
 /* Tooltips */
 .material-tooltip {
-    font-size: 70%;
+	font-size: 70%;
 	color: var(--secondary-dark);
 	transform: translateY(-33px);
+	padding: 2px 6px;
 }
 .backdrop {
 	background-color: transparent;
