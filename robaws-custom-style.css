@@ -336,10 +336,16 @@ header nav .button-collapse i {
 header nav i {
     font-size: 1.6rem !important;
 }
-.material-tooltip {
-    font-size: 75%;
-}
 
+/* Tooltips */
+.material-tooltip {
+    font-size: 70%;
+	color: var(--secondary-dark);
+	transform: translateY(-33px);
+}
+.backdrop {
+	background-color: transparent;
+}
 
 
 /**
@@ -528,6 +534,9 @@ main.grey.lighten-2 {
 #responsiveDataTable tr.data-row {
     background-color: #fff;
     border-color: var(--base-light) !important;
+}
+#responsiveDataTable tr.data-row:hover {
+    background: var(--base-ultra-light) !important;
 }
 
 
