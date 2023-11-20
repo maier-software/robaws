@@ -329,6 +329,20 @@ header nav i {
 	font-size: 1.6rem !important;
 }
 
+/* Dropdown Menus */
+.dropdown-content li {
+	min-height: auto;
+}
+.dropdown-content li > a,
+.dropdown-content li > span {
+	font-size: 0.9rem;
+	line-height: 1;
+	padding: 8px 16px;
+}
+.dropdown-content li > a > i {
+    font-size: inherit !important;
+}
+
 /* Tooltips */
 .material-tooltip {
 	font-size: 70%;
@@ -531,6 +545,10 @@ main.grey.lighten-2 {
 /**
 * Data Table
 */
+#responsiveDataTable .table-header {
+    font-size: 0.9rem;
+    color: var(--base);
+}
 #responsiveDataTable tr.data-row {
     background-color: #fff;
     border-color: var(--base-light) !important;
