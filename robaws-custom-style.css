@@ -270,6 +270,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
+	padding-top: 0 !important;
 }
 #robaws-bootstrapping img {
 	border: 2rem solid #fff;
