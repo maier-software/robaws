@@ -308,8 +308,8 @@ header nav .nav-wrapper {
 	padding-left: 0;
 }
 header nav .nav-wrapper a.button-collapse,
-header nav .nav-wrapper ul > li > a,
-header nav .nav-wrapper ul > li > div > a{
+header nav .nav-wrapper > ul > li > a,
+header nav .nav-wrapper > ul > li > div > a{
 	color: var(--secondary-dark) !important;
 	padding: 0 12px;
 }
@@ -363,7 +363,7 @@ body .side-nav li:hover {
 .side-nav li a.blue-grey.darken-3 {
     background-color: var(--base-ultra-light) !important;
 }
-.side-nav li.active a {
+.side-nav li.active a.blue-grey.darken-3 {
     background-color: inherit !important;
     color: #fff !important;
 }
