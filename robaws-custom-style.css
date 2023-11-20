@@ -320,7 +320,7 @@ header nav .nav-wrapper > ul > li > div > a{
 }
 header nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
 	background-color: var(--secondary-trans-20);
-	color: var(--secondary-hover) !important;
+	/* color: var(--secondary-hover) !important; */
 }
 header nav .button-collapse i {
 	font-size: 2rem;
@@ -567,7 +567,7 @@ div[class*="j-c"] .tabs .tab a {
 }
 /* Tab Active */
 div[class*="j-c"] .tabs .tab a.active {
-      background-color: var(--primary) !important;
+      background-color: var(--secondary) !important;
       color: #fff !important;
       font-weight: bold;
 }
@@ -580,6 +580,9 @@ div[class*="j-c"] #tabComments > div > div {
 }
 div[class*="j-c"] #tabComments > div > div > div {
       width: 100%;
+}
+.tabs .indicator {
+	display: none;
 }
 
 
