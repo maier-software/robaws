@@ -263,6 +263,9 @@ html, body {
 }
 
 /* Loading Animation */
+#robaws-bootstrapping {
+	padding-top: 50%;
+}
 #robaws-bootstrapping img {
 	border: 2rem solid #fff;
 	border-radius: var(--radius-circle);
@@ -369,7 +372,7 @@ body .side-nav li:hover {
     background-color: inherit !important;
     color: #fff !important;
 }
-ul.side-nav i.amber-text.text-darken-1 {
+ul.side-nav i {
     font-size: 1.6em;
     width: 1.6rem;
     color: var(--secondary-dark) !important;
