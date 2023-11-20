@@ -308,11 +308,12 @@ header nav .nav-wrapper {
 	padding-left: 0;
 }
 header nav .nav-wrapper a.button-collapse,
-header nav .nav-wrapper ul:not(.dropdown-content) li a {
+header nav .nav-wrapper ul > li > a,
+header nav .nav-wrapper ul > li > div > a{
 	color: var(--secondary-dark) !important;
 	padding: 0 12px;
 }
-header nav ul a:hover {
+header nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
 	background-color: var(--secondary-trans-20);
 	color: var(--secondary-hover) !important;
 }
@@ -328,7 +329,7 @@ header nav i {
 	font-size: 70%;
 	color: var(--secondary-dark);
 	transform: translateY(-33px);
-	padding: 2px 6px;
+	padding: 3px 6px;
 }
 .backdrop {
 	background-color: transparent;
