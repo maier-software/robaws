@@ -581,6 +581,10 @@ div[class*="j-c"] #tabComments > div > div {
 div[class*="j-c"] #tabComments > div > div > div {
       width: 100%;
 }
+/* Tab icon */
+ul.tabs .tab a i {
+	padding-right: 0.5em;
+}
 .tabs .indicator {
 	display: none;
 }
