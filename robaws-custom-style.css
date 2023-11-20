@@ -659,9 +659,19 @@ ul.tabs .tab a i {
 */
 
 .row .col.s10 {
-    width: 86%;
+    width: 85%;
 }
+
+/* Field Label */
 .robawsfield .material-label {
       font-size: 0.9rem;
       overflow-wrap: normal !important;
+}
+
+/* Field Input */
+.robawsfield .flexAll:not(.noWidth) {
+    width: auto !important;
+}
+.robawsfield .robaws-input-field-container {
+	margin-left: 16px;
 }
