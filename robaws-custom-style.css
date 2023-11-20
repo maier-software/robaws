@@ -353,7 +353,7 @@ header nav i {
 	min-height: auto;
 }
 .backdrop {
-	background-color: transparent;
+	background-color: var(--secondary-light);
 }
 
 
