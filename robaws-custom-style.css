@@ -523,6 +523,15 @@ main.grey.lighten-2 {
 }
 
 /**
+* Data Table
+*/
+#responsiveDataTable tr.data-row {
+    background-color: #fff;
+    border-color: var(--base-light) !important;
+}
+
+
+/**
 * Last Row
 */
 div[class*="j-c"] > div.row > div.row:last-child {
