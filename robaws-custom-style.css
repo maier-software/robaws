@@ -264,8 +264,9 @@ html, body {
 
 /* Loading Animation */
 #robaws-bootstrapping {
-	height: 100%;
-	/* padding-top: 50% !important; */
+	display: flex;
+  	align-items: center;
+	justify-content: center;
 }
 #robaws-bootstrapping img {
 	border: 2rem solid #fff;
