@@ -348,7 +348,7 @@ header nav i {
     background-color: var(--secondary) !important;
     color: #fff !important;
 }
-.side-nav li.active i {
+.side-nav li.active i.amber-text.text-darken-1 {
     color: #fff !important;
 }
 body .side-nav li:hover {
@@ -367,7 +367,7 @@ body .side-nav li:hover {
     background-color: inherit !important;
     color: #fff !important;
 }
-ul.side-nav i {
+ul.side-nav i.amber-text.text-darken-1 {
     font-size: 1.6em;
     width: 1.6rem;
     color: var(--secondary-dark) !important;
