@@ -635,6 +635,20 @@ ul.tabs .tab a i {
 .tabs .waves-effect .waves-rippe {
 	display: none;
 }
+/* Tab Count */
+.tabs span.badge.circle {
+top: auto;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+    background-color: var(--primary) !important;
+}
+
 
 /**
 * Tabs Contents
