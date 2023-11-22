@@ -666,15 +666,25 @@ ul.tabs .tab a i {
     width: 85%;
 }
 
+/* Row */
+.robawsfield {
+	padding: 10px 3px;
+}
+
 /* Field Label */
-.robawsfield .material-label {
-      font-size: 0.9rem;
-      overflow-wrap: normal !important;
+.robawsfield > .material-label {
+	flex: 0 0 200px !important;
+	max-width: 200px !important;
+	font-size: 0.9rem;
+	overflow-wrap: normal !important;
 }
 
 /* Field Input */
 .robawsfield .flexAll:not(.noWidth):has(input[type='checkbox']) {
 	width: auto !important;
 	margin-left: 0;
+}
+.robawsfield .flexAll:not(.noWidth):has(input[type='checkbox']) .material-label {
+	margin-top: 0;
 }
 
