@@ -294,6 +294,7 @@ div[class*="j-c"] button {
 div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1 {
 	background-color: #fff;
 	border: 2px solid var(--secondary);
+	margin-left: 0;
 }
 div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1:hover {
 	background-color: var(--secondary);
