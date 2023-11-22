@@ -640,7 +640,8 @@ ul.tabs .tab a i {
 .tabs span.badge.circle {
 	position: relative;
 	display: inline-block;
-	top: auto;
+	top: auto !important;
+	right: auto;
 	width: 16px;
     	height: 16px;
 	line-height: 17px;
