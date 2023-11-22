@@ -288,8 +288,9 @@ div[class*="j-c"] button {
     box-shadow: none;
 }
 
-main .card {
-    background-color: var(--secondary-trans-10) !important;
+main .card,
+main .card.grey.lighten-5 {
+    background-color: #fff !important;
     padding-top: 10px !important;
 }
 
@@ -668,7 +669,7 @@ ul.tabs .tab a i {
 
 /* Row */
 .robawsfield {
-	padding: 12px 3px;
+	padding: 6px 3px;
 }
 
 /* Field Label */
@@ -685,6 +686,6 @@ ul.tabs .tab a i {
 	margin-left: 0;
 }
 .robawsfield .flexAll:not(.noWidth):has(input[type='checkbox']) .material-label {
-	margin-top: 0 !important;
+	/* margin-top: 0 !important; */
 }
 
