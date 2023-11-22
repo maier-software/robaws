@@ -668,7 +668,7 @@ ul.tabs .tab a i {
 
 /* Row */
 .robawsfield {
-	padding: 10px 3px;
+	padding: 12px 3px;
 }
 
 /* Field Label */
@@ -685,6 +685,6 @@ ul.tabs .tab a i {
 	margin-left: 0;
 }
 .robawsfield .flexAll:not(.noWidth):has(input[type='checkbox']) .material-label {
-	margin-top: 0;
+	margin-top: 0 !important;
 }
 
