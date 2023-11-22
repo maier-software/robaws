@@ -290,17 +290,20 @@ div[class*="j-c"] button {
 	line-height: 34px;
 }
 
-/* Secondary Outline */
-div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1 {
+/* Button Secondary Outline */
+div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1,
+div[class*="j-c"] #tabComments button.blue-grey.darken-1 {
 	background-image: none !important;
 	background-color: #fff !important;
 	border: 2px solid var(--secondary);
 	margin-left: 0;
 }
-div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1:hover {
-	background-color: var(--secondary);
+div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1:hover,
+div[class*="j-c"] #tabComments button.blue-grey.darken-1:hover {
+	background-color: var(--secondary) !important;
 }
-div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1:not(:hover) {
+div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1:not(:hover),
+div[class*="j-c"] #tabComments button.blue-grey.darken-1:not(:hover) {
 	color: var(--secondary);
 }
 
@@ -675,7 +678,10 @@ div[class*="j-c"] #tabComments > div > div:last-child .marterial-label {
 div[class*="j-c"] #tabContactPersons .grey.lighten-5 {
     background-color: #fff !important;
 }
-div[class*="j-c"] #tabContactPersons .blue-grey.darken-1 {
+div[class*="j-c"] #tabContactPersons .blue-grey.darken-1,
+div[class*="j-c"] #tabDocuments .blue-grey.darken-3,
+div[class*="j-c"] #tabTasks .blue-grey.darken-3,
+div[class*="j-c"] #tabArticlePrices .blue-grey.darken-3 {
     background-color: var(--secondary-dark) !important;
 }
 
