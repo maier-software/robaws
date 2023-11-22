@@ -673,8 +673,8 @@ ul.tabs .tab a i {
 }
 
 /* Field Input */
-.robawsfield .flexAll:not(.noWidth) {
+.robawsfield .flexAll:not(.noWidth):has(input[type='checkbox']) {
 	width: auto !important;
-	margin-left: 16px;
+	margin-left: 0;
 }
 
