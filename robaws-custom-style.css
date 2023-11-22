@@ -258,7 +258,6 @@
 ========================================================================== */
 
 html, body {
-	position: relative;
 	background-color: var(--base-ultra-light);
 }
 
