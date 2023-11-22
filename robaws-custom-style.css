@@ -291,15 +291,15 @@ div[class*="j-c"] button {
 }
 
 /* Secondary Outline */
-div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1 {
+div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1 {
 	background-color: #fff;
 	border: 2px solid var(--secondary);
 	margin-left: 0;
 }
-div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1:hover {
+div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1:hover {
 	background-color: var(--secondary);
 }
-div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1:not(:hover) {
+div[class*="j-c"] #tabContactPersons button.blue-grey.darken-1:not(:hover) {
 	color: var(--secondary);
 }
 
@@ -614,7 +614,7 @@ div[class*="j-c"] .tabs {
 }
 /* Tab Labels */
 div[class*="j-c"] .tabs .tab a {
-	color: #546e7a !important;
+	color: var(--secondary-dark) !important;
 	font-size: 0.9rem;
 	font-weight: bold;
 }
@@ -637,16 +637,16 @@ ul.tabs .tab a i {
 }
 /* Tab Count */
 .tabs span.badge.circle {
-top: auto;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: middle;
-    font-size: 0.8rem;
-    margin-left: 20px;
-    width: 20px;
-    height: 20px;
-    margin-top: -3px;
-    background-color: var(--primary) !important;
+	position: relative;
+	display: inline-block;
+	top: auto;
+	width: 16px;
+    	height: 16px;
+	line-height: 17px;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-top: -4px;
+	background-color: var(--primary) !important;
 }
 
 
