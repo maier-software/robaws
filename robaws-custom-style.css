@@ -258,8 +258,8 @@
 ========================================================================== */
 
 html, body {
-    position: relative;
-    background-color: var(--base-ultra-light);
+	position: relative;
+	background-color: var(--base-ultra-light);
 }
 
 /* Loading Animation */
@@ -277,21 +277,43 @@ html, body {
 	background: radial-gradient(circle, rgba(255,255,255,1) 60%, var(--base-ultra-light) 100%);
 }
 
-/* Buttons */
-div[class*="j-c"] button {
-      background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
-      color: #fff;
+/**
+* Buttons
+*/
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+	box-shadow: none;
 }
+
+div[class*="j-c"] button {
+	background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
+	color: #fff;
+	line-height: 34px;
+}
+
+/* Secondary Outline */
+div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1 {
+	background-color: #fff;
+	border: 2px solid var(--secondary);
+}
+div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1:hover {
+	background-color: var(--secondary);
+}
+div[class*="j-c"] .tabContactPersons button.blue-grey.darken-1:not(:hover) {
+	color: var(--secondary);
+}
+
+
+
 
 /* Delete box-shadow */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
-    box-shadow: none;
+	box-shadow: none;
 }
 
 main .card,
 main .card.grey.lighten-5 {
-    background-color: #fff !important;
-    padding-top: 10px !important;
+	background-color: #fff !important;
+	padding-top: 10px !important;
 }
 
 
@@ -347,7 +369,7 @@ header nav i {
 	padding: 8px 16px;
 }
 .dropdown-content li > a > i {
-    font-size: inherit !important;
+	font-size: inherit !important;
 }
 
 /* Tooltips */
@@ -368,157 +390,157 @@ header nav i {
 */
 
 .side-nav.blue-grey.darken-1 {
-    background-color: transparent !important;
-    border-right: 1px solid var(--secondary-dark-trans-40)
+	background-color: transparent !important;
+	border-right: 1px solid var(--secondary-dark-trans-40)
 }
 .side-nav li.active {
-    background-color: var(--secondary) !important;
+	background-color: var(--secondary) !important;
 }
 .side-nav li.active a {
-    color: #fff !important;
+	color: #fff !important;
 }
 .side-nav li.active i,
 .side-nav li.active i.amber-text.text-darken-1 {
-    color: #fff !important;
+	color: #fff !important;
 }
 body .side-nav li:hover {
-    background-color: var(--secondary-trans-20) !important;
+	background-color: var(--secondary-trans-20) !important;
 }
 .side-nav li a {
-    font-size: 0.8rem;
-    height: 36px;
-    color: var(--secondary-dark) !important;
-    background-color: initial !important;
+	font-size: 0.8rem;
+	height: 36px;
+	color: var(--secondary-dark) !important;
+	background-color: initial !important;
 }
 .side-nav li a.blue-grey.darken-3 {
-    background-color: var(--base-ultra-light) !important;
+	background-color: var(--base-ultra-light) !important;
 }
 .side-nav li.active a.blue-grey.darken-3 {
-    background-color: inherit !important;
-    color: #fff !important;
+	background-color: inherit !important;
+	color: #fff !important;
 }
 ul.side-nav i {
-    font-size: 1.6em;
-    width: 1.6rem;
-    color: var(--secondary-dark) !important;
+	font-size: 1.6em;
+	width: 1.6rem;
+	color: var(--secondary-dark) !important;
 }
 i.left {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
 
 /* --- LINKS --- */
 
 .side-nav {
-    display: flex;
-    flex-flow: column;
+	display: flex;
+	flex-flow: column;
 }
 /* Kunden */
 .side-nav li:nth-child(1) {
-      order: 1;
+	order: 1;
 }
 /* Angebot */
 .side-nav li:nth-child(2) {
-      order: 2;
+	order: 2;
 }
 /* Projekte */
 .side-nav li:nth-child(3) {
-      order: 3;
+	order: 3;
 }
 /* Aufträge */
 .side-nav li:nth-child(4) {
-      order: 4;
+	order: 4;
 }
 /* Serviceauftrag */
 .side-nav li:nth-child(6) {
-      order: 5;
+	order: 5;
 }
 
 /* Lieferanten */
 .side-nav li:nth-child(14) {
-      order: 6;
-      border-top: 1px solid var(--secondary-dark-trans-40);
+	order: 6;
+	border-top: 1px solid var(--secondary-dark-trans-40);
 }
 /* Bestellungen */
 .side-nav li:nth-child(15) {
-      order: 7;
+	order: 7;
 }
 /* Lieferscheine */
 .side-nav li:nth-child(5) {
-      order: 8;
+	order: 8;
 }
 
 /* Artikel */
 .side-nav li:nth-child(17) {
-      order: 9;
-      border-top: 1px solid var(--secondary-dark-trans-40);
+	order: 9;
+	border-top: 1px solid var(--secondary-dark-trans-40);
 }
 /* Geräte */
 .side-nav li:nth-child(18) {
-      order: 10;
+	order: 10;
 }
 /* Installationen */
 .side-nav li:nth-child(19) {
-      order: 11;
+	order: 11;
 }
 /* Lagerverwaltung */
 .side-nav li:nth-child(20) {
-      order: 12;
+	order: 12;
 }
 
 /* Projektplannung */
 .side-nav li:nth-child(23) {
-      order: 13;
-      border-top: 1px solid var(--secondary-dark-trans-40);
+	order: 13;
+	border-top: 1px solid var(--secondary-dark-trans-40);
 }
 /* Tagesplan */
 .side-nav li:nth-child(22) {
-      order: 14;
+	order: 14;
 }
 /* Mitarbeiter */
 .side-nav li:nth-child(21) {
-      order: 15;
+	order: 15;
 }
 /* Arbeitszeiten */
 .side-nav li:nth-child(9) {
-      order: 16;
+	order: 16;
 }
 
 /* Rechnungen */
 .side-nav li:nth-child(12) {
-      order: 17;
-      border-top: 1px solid var(--secondary-dark-trans-40);
+	order: 17;
+	border-top: 1px solid var(--secondary-dark-trans-40);
 }
 /* Eingangsrechnungen */
 .side-nav li:nth-child(16) {
-      order: 18;
+	order: 18;
 }
 /* Zahlungsausgleich */
 .side-nav li:nth-child(7) {
-      order: 19;
+	order: 19;
 }
 /* Mahnungen */
 .side-nav li:nth-child(8) {
-      order: 20;
+	order: 20;
 }
 
 /* EMPTY - Zeitregistrierung */
 .side-nav li:nth-child(10) {
-      order: 0;
+	order: 0;
 }
 /* EMPTY - Local Shipping / Transport */
 .side-nav li:nth-child(11) {
-      order: 0;
+	order: 0;
 }
 /* EMPTY - Monetazation / Kasse */
 .side-nav li:nth-child(13) {
-      order: 0;
+	order: 0;
 }
 
 /* Auswertung */
 .side-nav li:nth-child(24) {
-      order: 24;
-      border-top: 1px solid var(--secondary-dark-trans-40);
+	order: 24;
+	border-top: 1px solid var(--secondary-dark-trans-40);
 }
 
 
@@ -536,79 +558,70 @@ i.left {
 * Main Container 
 */
 main.grey.lighten-2 {
-    background-color: var(--base-ultra-light) !important;
+	background-color: var(--base-ultra-light) !important;
 }
 
 /**
 * Search bar
 */
 .tablesearchmain.blue-grey.darken-3 {
-    background-color: var(--secondary) !important;
+	background-color: var(--secondary) !important;
 }
 .tablesearchmain .swBox.blue-grey.darken-1 {
-    background-color: var(--white-trans-40) !important;
+	background-color: var(--white-trans-40) !important;
 }
+
 
 /**
 * Data Table
 */
 #responsiveDataTable .table-header {
-    font-size: 0.9rem;
-    color: var(--base);
+	font-size: 0.9rem;
+	color: var(--base);
 }
 #responsiveDataTable tr.data-row {
-    background-color: #fff;
-    border-color: var(--base-light) !important;
+	background-color: #fff;
+	border-color: var(--base-light) !important;
 }
 #responsiveDataTable tr.data-row:hover {
-    background: var(--base-ultra-light) !important;
+	background: var(--base-ultra-light) !important;
 }
 
 
 /**
-* Last Row
+* Last Row: Tabs
 */
 div[class*="j-c"] > div.row > div.row:last-child {
-      margin-top: 4rem;
+	margin-top: 4rem;
 }
 div[class*="j-c"] > div.row > div.row:last-child > div {
-      background-color: transparent !important;
-      box-shadow: none;
-      padding: 0;
+	background-color: transparent !important;
+	box-shadow: none;
+	padding: 0;
 }
 div[class*="j-c"] > div.row > div.row:last-child > div > div {
-      padding: 0;
+	padding: 0;
 }
 /* Tab Container */
 div[class*="j-c"] div[id^="tab"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 /* Single Tab */
 div[class*="j-c"] .tabs {
-      background-color: transparent !important;
+	background-color: transparent !important;
 }
 /* Tab Labels */
 div[class*="j-c"] .tabs .tab a {
-      color: #546e7a !important;
-      font-size: 0.9rem;
-      font-weight: bold;
+	color: #546e7a !important;
+	font-size: 0.9rem;
+	font-weight: bold;
 }
 /* Tab Active */
 div[class*="j-c"] .tabs .tab a.active {
-      background-color: var(--secondary) !important;
-      color: #fff !important;
-      font-weight: bold;
-}
-
-/**/
-div[class*="j-c"] #tabComments > div > div {
-      background-color: transparent !important;
-      text-align: center;
-      min-height: 7rem;
-}
-div[class*="j-c"] #tabComments > div > div > div {
-      width: 100%;
+	background-color: var(--secondary) !important;
+	color: #fff !important;
+	font-weight: bold;
 }
 /* Tab icon */
 ul.tabs .tab a i {
@@ -616,6 +629,37 @@ ul.tabs .tab a i {
 }
 .tabs .indicator {
 	display: none;
+}
+/* Waves Effect */
+.tabs .waves-effect .waves-rippe {
+	display: none;
+}
+
+/**
+* Tabs Contents
+*/
+
+/* Comments */
+div[class*="j-c"] #tabComments > div {
+	background-color: white;
+	border-top: 5px solid var(--secondary-dark);
+}
+div[class*="j-c"] #tabComments > div > div:first-child {
+	background-color: transparent !important;
+	text-align: center;
+	min-height: 7rem;
+}
+div[class*="j-c"] #tabComments > div > div > div {
+	width: 100%;
+}
+div[class*="j-c"] #tabComments > div > div:last-child .marterial-label {
+	color: var(--base-medium);
+}
+div[class*="j-c"] #tabContactPersons .grey.lighten-5 {
+    background-color: #fff !important;
+}
+div[class*="j-c"] #tabContactPersons .blue-grey.darken-1 {
+    background-color: var(--secondary-dark) !important;
 }
 
 
