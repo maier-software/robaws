@@ -741,7 +741,7 @@ div[class*="j-c"] #tabArticlePrices .blue-grey.darken-3 {
 }
 
 /* Field Label */
-.robawsfield > .material-label {
+.row:not(.dragdrop-draggable) .robawsfield > .material-label {
 	flex: 0 0 200px !important;
 	max-width: 200px !important;
 	font-size: 0.9rem;
