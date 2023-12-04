@@ -590,7 +590,9 @@ main.grey.lighten-2 {
 #responsiveDataTable tr.data-row:hover {
 	background: var(--base-ultra-light) !important;
 }
-
+#responsiveDataTable tr .numeric {
+	text-align: left;
+}
 
 /**
 * Last Row: Tabs
