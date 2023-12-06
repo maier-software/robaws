@@ -1,4 +1,4 @@
-name: Compile SCSS to CSS
+name: Compile SCSS to CSS and Commit
 
 on:
   push:
@@ -7,27 +7,32 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-and-commit:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    
+
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '12'
+        node-version: '14'
 
     - name: Install dependencies
       run: npm install
 
     - name: Compile SCSS to CSS
       run: npm run build-css
-      
-    - name: Commit and push if changed
+
+    - name: Configure Git
       run: |
-            git config --global user.email 'you@example.com'
-            git config --global user.name 'Your Name'
-            git add -A
-            git commit -m "Compiled CSS" || exit 0
-            git push https://${{ secrets.GH_PAT }}@github.com/maier-software/robaws.git
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Commit and push changes
+      run: |
+        git add -A
+        git commit -m "Compile SCSS to CSS" || echo "No changes to commit"
+        git push --set-upstream origin HEAD
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
