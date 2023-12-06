@@ -283,6 +283,8 @@ html, body {
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
 	box-shadow: none;
 }
+
+/* General Button */
 button {
 	background-image: none !important;
 	background-color: #fff !important;
@@ -302,11 +304,11 @@ button.blue-grey.darken-1 {
 }
 
 
-/*
+button.green.darken-2 {
 	background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
 	color: #fff;
 	line-height: 34px;
-*/
+}
 
 
 
