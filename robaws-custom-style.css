@@ -531,7 +531,7 @@
  #responsiveDataTable tr .numeric {
 	 text-align: left;
 }
- #responsiveDataTable td[data-title="Status"] .cell {
+ #responsiveDataTable [data-title="Status"] .cell {
 	 display: inline-block;
 	 vertical-align: middle;
 	 padding: 6px 14px;
