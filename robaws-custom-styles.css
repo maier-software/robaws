@@ -1,0 +1,801 @@
+@charset "UTF-8";
+/* THIS SCSS FILE NEEDS TO BE CONVERTED INTO CSS AND MANUALLY ADDED TO robaws-custom-styles.css */
+:root {
+  --primary: #27b4af;
+  --primary-hover: #2dcfc9;
+  --primary-ultra-light: #f4fbfb;
+  --primary-light: #c0f1f0;
+  --primary-medium: #2ed1cc;
+  --primary-dark: #176966;
+  --primary-ultra-dark: #092a29;
+  --primary-comp: #b4272c;
+  --primary-trans-10: rgba(39, 180, 175, 0.1);
+  --primary-trans-20: rgba(39, 180, 175, 0.2);
+  --primary-trans-30: rgba(39, 180, 175, 0.3);
+  --primary-trans-40: rgba(39, 180, 175, 0.4);
+  --primary-trans-50: rgba(39, 180, 175, 0.5);
+  --primary-trans-60: rgba(39, 180, 175, 0.6);
+  --primary-trans-70: rgba(39, 180, 175, 0.7);
+  --primary-trans-80: rgba(39, 180, 175, 0.8);
+  --primary-trans-90: rgba(39, 180, 175, 0.9);
+  --primary-light-trans-10: rgba(192, 241, 240, 0.1);
+  --primary-light-trans-20: rgba(192, 241, 240, 0.2);
+  --primary-light-trans-30: rgba(192, 241, 240, 0.3);
+  --primary-light-trans-40: rgba(192, 241, 240, 0.4);
+  --primary-light-trans-50: rgba(192, 241, 240, 0.5);
+  --primary-light-trans-60: rgba(192, 241, 240, 0.6);
+  --primary-light-trans-70: rgba(192, 241, 240, 0.7);
+  --primary-light-trans-80: rgba(192, 241, 240, 0.8);
+  --primary-light-trans-90: rgba(192, 241, 240, 0.9);
+  --primary-dark-trans-10: rgba(23, 105, 102, 0.1);
+  --primary-dark-trans-20: rgba(23, 105, 102, 0.2);
+  --primary-dark-trans-30: rgba(23, 105, 102, 0.3);
+  --primary-dark-trans-40: rgba(23, 105, 102, 0.4);
+  --primary-dark-trans-50: rgba(23, 105, 102, 0.5);
+  --primary-dark-trans-60: rgba(23, 105, 102, 0.6);
+  --primary-dark-trans-70: rgba(23, 105, 102, 0.7);
+  --primary-dark-trans-80: rgba(23, 105, 102, 0.8);
+  --primary-dark-trans-90: rgba(23, 105, 102, 0.9);
+  --primary-ultra-dark-trans-10: rgba(9, 42, 41, 0.1);
+  --primary-ultra-dark-trans-20: rgba(9, 42, 41, 0.2);
+  --primary-ultra-dark-trans-30: rgba(9, 42, 41, 0.3);
+  --primary-ultra-dark-trans-40: rgba(9, 42, 41, 0.4);
+  --primary-ultra-dark-trans-50: rgba(9, 42, 41, 0.5);
+  --primary-ultra-dark-trans-60: rgba(9, 42, 41, 0.6);
+  --primary-ultra-dark-trans-70: rgba(9, 42, 41, 0.7);
+  --primary-ultra-dark-trans-80: rgba(9, 42, 41, 0.8);
+  --primary-ultra-dark-trans-90: rgba(9, 42, 41, 0.9);
+  --primary-hex: #27b4af;
+  --primary-hsl: 178 64% 43%;
+  --primary-rgb: 39 180 175;
+  --primary-r: 39;
+  --primary-g: 180;
+  --primary-b: 175;
+  --primary-h: 178;
+  --primary-s: 64%;
+  --primary-l: 43%;
+  --primary-hover-h: 178;
+  --primary-hover-s: 64%;
+  --primary-hover-l: 1.15;
+  --primary-ultra-light-h: 180;
+  --primary-ultra-light-s: 47%;
+  --primary-ultra-light-l: 97%;
+  --primary-light-h: 178;
+  --primary-light-s: 64%;
+  --primary-light-l: 85%;
+  --primary-medium-h: 178;
+  --primary-medium-s: 64%;
+  --primary-medium-l: 50%;
+  --primary-dark-h: 178;
+  --primary-dark-s: 64%;
+  --primary-dark-l: 25%;
+  --primary-ultra-dark-h: 178;
+  --primary-ultra-dark-s: 64%;
+  --primary-ultra-dark-l: 10%;
+  --primary-comp-h: 358;
+  --secondary: #3e7cbf;
+  --secondary-hover: #5b91ca;
+  --secondary-ultra-light: #ecf2f9;
+  --secondary-light: #c5d8ec;
+  --secondary-medium: #3e7dc1;
+  --secondary-dark: #1f3f60;
+  --secondary-ultra-dark: #0c1927;
+  --secondary-comp: #c1823e;
+  --secondary-trans-10: rgba(62, 124, 191, 0.1);
+  --secondary-trans-20: rgba(62, 124, 191, 0.2);
+  --secondary-trans-30: rgba(62, 124, 191, 0.3);
+  --secondary-trans-40: rgba(62, 124, 191, 0.4);
+  --secondary-trans-50: rgba(62, 124, 191, 0.5);
+  --secondary-trans-60: rgba(62, 124, 191, 0.6);
+  --secondary-trans-70: rgba(62, 124, 191, 0.7);
+  --secondary-trans-80: rgba(62, 124, 191, 0.8);
+  --secondary-trans-90: rgba(62, 124, 191, 0.9);
+  --secondary-light-trans-10: rgba(197, 216, 236, 0.1);
+  --secondary-light-trans-20: rgba(197, 216, 236, 0.2);
+  --secondary-light-trans-30: rgba(197, 216, 236, 0.3);
+  --secondary-light-trans-40: rgba(197, 216, 236, 0.4);
+  --secondary-light-trans-50: rgba(197, 216, 236, 0.5);
+  --secondary-light-trans-60: rgba(197, 216, 236, 0.6);
+  --secondary-light-trans-70: rgba(197, 216, 236, 0.7);
+  --secondary-light-trans-80: rgba(197, 216, 236, 0.8);
+  --secondary-light-trans-90: rgba(197, 216, 236, 0.9);
+  --secondary-dark-trans-10: rgba(31, 63, 96, 0.1);
+  --secondary-dark-trans-20: rgba(31, 63, 96, 0.2);
+  --secondary-dark-trans-30: rgba(31, 63, 96, 0.3);
+  --secondary-dark-trans-40: rgba(31, 63, 96, 0.4);
+  --secondary-dark-trans-50: rgba(31, 63, 96, 0.5);
+  --secondary-dark-trans-60: rgba(31, 63, 96, 0.6);
+  --secondary-dark-trans-70: rgba(31, 63, 96, 0.7);
+  --secondary-dark-trans-80: rgba(31, 63, 96, 0.8);
+  --secondary-dark-trans-90: rgba(31, 63, 96, 0.9);
+  --secondary-ultra-dark-trans-10: rgba(12, 25, 39, 0.1);
+  --secondary-ultra-dark-trans-20: rgba(12, 25, 39, 0.2);
+  --secondary-ultra-dark-trans-30: rgba(12, 25, 39, 0.3);
+  --secondary-ultra-dark-trans-40: rgba(12, 25, 39, 0.4);
+  --secondary-ultra-dark-trans-50: rgba(12, 25, 39, 0.5);
+  --secondary-ultra-dark-trans-60: rgba(12, 25, 39, 0.6);
+  --secondary-ultra-dark-trans-70: rgba(12, 25, 39, 0.7);
+  --secondary-ultra-dark-trans-80: rgba(12, 25, 39, 0.8);
+  --secondary-ultra-dark-trans-90: rgba(12, 25, 39, 0.9);
+  --secondary-hex: #3e7cbf;
+  --secondary-hsl: 211 51% 50%;
+  --secondary-rgb: 62 124 191;
+  --secondary-r: 62;
+  --secondary-g: 124;
+  --secondary-b: 191;
+  --secondary-h: 211;
+  --secondary-s: 51%;
+  --secondary-l: 50%;
+  --secondary-hover-h: 211;
+  --secondary-hover-s: 51%;
+  --secondary-hover-l: 1.15;
+  --secondary-ultra-light-h: 211;
+  --secondary-ultra-light-s: 51%;
+  --secondary-ultra-light-l: 95%;
+  --secondary-light-h: 211;
+  --secondary-light-s: 51%;
+  --secondary-light-l: 85%;
+  --secondary-medium-h: 211;
+  --secondary-medium-s: 51%;
+  --secondary-medium-l: 50%;
+  --secondary-dark-h: 211;
+  --secondary-dark-s: 51%;
+  --secondary-dark-l: 25%;
+  --secondary-ultra-dark-h: 211;
+  --secondary-ultra-dark-s: 51%;
+  --secondary-ultra-dark-l: 10%;
+  --secondary-comp-h: 391;
+  --base: #414042;
+  --base-hover: #49484b;
+  --base-ultra-light: #f2f2f3;
+  --base-light: #d9d8da;
+  --base-medium: #807d82;
+  --base-dark: #403e41;
+  --base-ultra-dark: #1a191a;
+  --base-comp: #40413e;
+  --base-trans-10: rgba(65, 64, 66, 0.1);
+  --base-trans-20: rgba(65, 64, 66, 0.2);
+  --base-trans-30: rgba(65, 64, 66, 0.3);
+  --base-trans-40: rgba(65, 64, 66, 0.4);
+  --base-trans-50: rgba(65, 64, 66, 0.5);
+  --base-trans-60: rgba(65, 64, 66, 0.6);
+  --base-trans-70: rgba(65, 64, 66, 0.7);
+  --base-trans-80: rgba(65, 64, 66, 0.8);
+  --base-trans-90: rgba(65, 64, 66, 0.9);
+  --base-light-trans-10: rgba(217, 216, 218, 0.1);
+  --base-light-trans-20: rgba(217, 216, 218, 0.2);
+  --base-light-trans-30: rgba(217, 216, 218, 0.3);
+  --base-light-trans-40: rgba(217, 216, 218, 0.4);
+  --base-light-trans-50: rgba(217, 216, 218, 0.5);
+  --base-light-trans-60: rgba(217, 216, 218, 0.6);
+  --base-light-trans-70: rgba(217, 216, 218, 0.7);
+  --base-light-trans-80: rgba(217, 216, 218, 0.8);
+  --base-light-trans-90: rgba(217, 216, 218, 0.9);
+  --base-dark-trans-10: rgba(64, 62, 65, 0.1);
+  --base-dark-trans-20: rgba(64, 62, 65, 0.2);
+  --base-dark-trans-30: rgba(64, 62, 65, 0.3);
+  --base-dark-trans-40: rgba(64, 62, 65, 0.4);
+  --base-dark-trans-50: rgba(64, 62, 65, 0.5);
+  --base-dark-trans-60: rgba(64, 62, 65, 0.6);
+  --base-dark-trans-70: rgba(64, 62, 65, 0.7);
+  --base-dark-trans-80: rgba(64, 62, 65, 0.8);
+  --base-dark-trans-90: rgba(64, 62, 65, 0.9);
+  --base-ultra-dark-trans-10: rgba(26, 25, 26, 0.1);
+  --base-ultra-dark-trans-20: rgba(26, 25, 26, 0.2);
+  --base-ultra-dark-trans-30: rgba(26, 25, 26, 0.3);
+  --base-ultra-dark-trans-40: rgba(26, 25, 26, 0.4);
+  --base-ultra-dark-trans-50: rgba(26, 25, 26, 0.5);
+  --base-ultra-dark-trans-60: rgba(26, 25, 26, 0.6);
+  --base-ultra-dark-trans-70: rgba(26, 25, 26, 0.7);
+  --base-ultra-dark-trans-80: rgba(26, 25, 26, 0.8);
+  --base-ultra-dark-trans-90: rgba(26, 25, 26, 0.9);
+  --base-hex: #414042;
+  --base-hsl: 270 2% 25%;
+  --base-rgb: 65 64 66;
+  --base-r: 65;
+  --base-g: 64;
+  --base-b: 66;
+  --base-h: 270;
+  --base-s: 2%;
+  --base-l: 25%;
+  --base-hover-h: 270;
+  --base-hover-s: 2%;
+  --base-hover-l: 1.15;
+  --base-ultra-light-h: 270;
+  --base-ultra-light-s: 2%;
+  --base-ultra-light-l: 95%;
+  --base-light-h: 270;
+  --base-light-s: 2%;
+  --base-light-l: 85%;
+  --base-medium-h: 270;
+  --base-medium-s: 2%;
+  --base-medium-l: 50%;
+  --base-dark-h: 270;
+  --base-dark-s: 2%;
+  --base-dark-l: 25%;
+  --base-ultra-dark-h: 270;
+  --base-ultra-dark-s: 2%;
+  --base-ultra-dark-l: 10%;
+  --base-comp-h: 450;
+  --white: #fff;
+  --black: #000;
+  --black-trans-10: rgba(0, 0, 0, 0.1);
+  --black-trans-20: rgba(0, 0, 0, 0.2);
+  --black-trans-30: rgba(0, 0, 0, 0.3);
+  --black-trans-40: rgba(0, 0, 0, 0.4);
+  --black-trans-50: rgba(0, 0, 0, 0.5);
+  --black-trans-60: rgba(0, 0, 0, 0.6);
+  --black-trans-70: rgba(0, 0, 0, 0.7);
+  --black-trans-80: rgba(0, 0, 0, 0.8);
+  --black-trans-90: rgba(0, 0, 0, 0.9);
+  --white-trans-10: rgba(255, 255, 255, 0.1);
+  --white-trans-20: rgba(255, 255, 255, 0.2);
+  --white-trans-30: rgba(255, 255, 255, 0.3);
+  --white-trans-40: rgba(255, 255, 255, 0.4);
+  --white-trans-50: rgba(255, 255, 255, 0.5);
+  --white-trans-60: rgba(255, 255, 255, 0.6);
+  --white-trans-70: rgba(255, 255, 255, 0.7);
+  --white-trans-80: rgba(255, 255, 255, 0.8);
+  --white-trans-90: rgba(255, 255, 255, 0.9);
+  --radius-xs: 0.4444444444rem;
+  --radius-s: 0.6666666667rem;
+  --radius-m: 1rem;
+  --radius-l: 1.5rem;
+  --radius-xl: 2.25rem;
+  --radius-xxl: 3.375rem;
+  --radius-50: 50%;
+  --radius-circle: 50%;
+}
+
+/* ==========================================================================
+      GLOBAL
+========================================================================== */
+html, body {
+  background-color: var(--base-ultra-light);
+}
+
+/* Loading Animation */
+#robaws-bootstrapping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding-top: 0 !important;
+}
+
+#robaws-bootstrapping img {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 60%, var(--base-ultra-light) 100%);
+}
+
+/**
+* BUTTONS
+*/
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+  box-shadow: none;
+}
+
+/* General Button */
+button {
+  background-image: none !important;
+  background-color: #fff !important;
+  border: 2px solid var(--secondary);
+  margin-left: 0;
+  /* Settings Save Button */
+}
+button:hover {
+  background-color: var(--secondary) !important;
+}
+button:not(:hover) {
+  color: var(--secondary);
+}
+button.blue-grey.darken-1 {
+  color: #fff;
+  background-color: var(--white-trans-30) !important;
+}
+button.green.darken-2 {
+  background-image: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%) !important;
+  color: #fff;
+  line-height: 34px;
+}
+
+/* Delete box-shadow */
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+  box-shadow: none;
+}
+
+main .card,
+main .card.grey.lighten-5 {
+  background-color: #fff !important;
+  padding-top: 10px !important;
+}
+
+/* ==========================================================================
+      NAVIGATION
+========================================================================== */
+/**
+* Top Navbar
+*/
+header {
+  position: relative !important;
+  padding-bottom: 6px;
+}
+
+header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
+  background-color: var(--base-ultra-light) !important;
+  color: var(--secondary-dark) !important;
+}
+
+header nav {
+  border-bottom: 1px solid var(--secondary-dark-trans-40);
+}
+
+header nav .nav-wrapper {
+  padding-left: 0;
+}
+
+header nav .nav-wrapper a.button-collapse,
+header nav .nav-wrapper > ul > li > a,
+header nav .nav-wrapper > ul > li > div > a {
+  color: var(--secondary-dark) !important;
+  padding: 0 12px;
+}
+
+header nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
+  background-color: var(--secondary-trans-20);
+  /* color: var(--secondary-hover) !important; */
+}
+
+header nav .button-collapse i {
+  font-size: 2rem;
+}
+
+header nav i {
+  font-size: 1.6rem !important;
+}
+
+/* Dropdown Menus */
+.dropdown-content li {
+  min-height: auto;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 8px 16px;
+}
+
+.dropdown-content li > a > i {
+  font-size: inherit !important;
+}
+
+/* Tooltips */
+.material-tooltip {
+  font-size: 70%;
+  color: var(--secondary-dark);
+  transform: translateY(-15px);
+  padding: 3px 6px;
+  min-height: auto;
+}
+
+.backdrop {
+  background-color: var(--secondary-light);
+}
+
+/**
+* Left Sidebar
+*/
+.side-nav.blue-grey.darken-1 {
+  background-color: transparent !important;
+  border-right: 1px solid var(--secondary-dark-trans-40);
+}
+
+.side-nav li.active {
+  background-color: var(--secondary) !important;
+}
+
+.side-nav li.active a {
+  color: #fff !important;
+}
+
+.side-nav li.active i,
+.side-nav li.active i.amber-text.text-darken-1 {
+  color: #fff !important;
+}
+
+body .side-nav li:hover {
+  background-color: var(--secondary-trans-20) !important;
+}
+
+.side-nav li a {
+  font-size: 0.8rem;
+  height: 36px;
+  color: var(--secondary-dark) !important;
+  background-color: initial !important;
+}
+
+.side-nav li a.blue-grey.darken-3 {
+  background-color: var(--base-ultra-light) !important;
+}
+
+.side-nav li.active a.blue-grey.darken-3 {
+  background-color: inherit !important;
+  color: #fff !important;
+}
+
+ul.side-nav i {
+  font-size: 1.6em;
+  width: 1.6rem;
+  color: var(--secondary-dark) !important;
+}
+
+i.left {
+  margin-right: 5px;
+}
+
+/* --- LINKS --- */
+.side-nav {
+  display: flex;
+  flex-flow: column;
+}
+
+/* Kunden */
+.side-nav li:nth-child(1) {
+  order: 1;
+}
+
+/* Angebot */
+.side-nav li:nth-child(2) {
+  order: 2;
+}
+
+/* Projekte */
+.side-nav li:nth-child(3) {
+  order: 3;
+}
+
+/* Aufträge */
+.side-nav li:nth-child(4) {
+  order: 4;
+}
+
+/* Serviceauftrag */
+.side-nav li:nth-child(6) {
+  order: 5;
+}
+
+/* Lieferanten */
+.side-nav li:nth-child(14) {
+  order: 6;
+  border-top: 1px solid var(--secondary-dark-trans-40);
+}
+
+/* Bestellungen */
+.side-nav li:nth-child(15) {
+  order: 7;
+}
+
+/* Lieferscheine */
+.side-nav li:nth-child(5) {
+  order: 8;
+}
+
+/* Artikel */
+.side-nav li:nth-child(17) {
+  order: 9;
+  border-top: 1px solid var(--secondary-dark-trans-40);
+}
+
+/* Geräte */
+.side-nav li:nth-child(18) {
+  order: 10;
+}
+
+/* Installationen */
+.side-nav li:nth-child(19) {
+  order: 11;
+}
+
+/* Lagerverwaltung */
+.side-nav li:nth-child(20) {
+  order: 12;
+}
+
+/* Projektplannung */
+.side-nav li:nth-child(23) {
+  order: 13;
+  border-top: 1px solid var(--secondary-dark-trans-40);
+}
+
+/* Tagesplan */
+.side-nav li:nth-child(22) {
+  order: 14;
+}
+
+/* Mitarbeiter */
+.side-nav li:nth-child(21) {
+  order: 15;
+}
+
+/* Arbeitszeiten */
+.side-nav li:nth-child(9) {
+  order: 16;
+}
+
+/* Rechnungen */
+.side-nav li:nth-child(12) {
+  order: 17;
+  border-top: 1px solid var(--secondary-dark-trans-40);
+}
+
+/* Eingangsrechnungen */
+.side-nav li:nth-child(16) {
+  order: 18;
+}
+
+/* Zahlungsausgleich */
+.side-nav li:nth-child(7) {
+  order: 19;
+}
+
+/* Mahnungen */
+.side-nav li:nth-child(8) {
+  order: 20;
+}
+
+/* EMPTY - Zeitregistrierung */
+.side-nav li:nth-child(10) {
+  order: 0;
+}
+
+/* EMPTY - Local Shipping / Transport */
+.side-nav li:nth-child(11) {
+  order: 0;
+}
+
+/* EMPTY - Monetazation / Kasse */
+.side-nav li:nth-child(13) {
+  order: 0;
+}
+
+/* Auswertung */
+.side-nav li:nth-child(24) {
+  order: 24;
+  border-top: 1px solid var(--secondary-dark-trans-40);
+}
+
+/* ==========================================================================
+      MAIN PAGES
+========================================================================== */
+/**
+* Main Container 
+*/
+main.grey.lighten-2 {
+  background-color: var(--base-ultra-light) !important;
+}
+
+/**
+* Search bar
+*/
+.tablesearchmain.blue-grey.darken-3 {
+  background-color: var(--secondary) !important;
+}
+
+.tablesearchmain .swBox.blue-grey.darken-1 {
+  background-color: var(--white-trans-40) !important;
+}
+
+#responsiveDataTable tr.data-row {
+  background-color: #fff;
+  border-color: var(--base-light) !important;
+}
+
+/**
+* Data Table
+*/
+#responsiveDataTable {
+  /* Status */
+}
+#responsiveDataTable .table-header {
+  font-size: 0.9rem;
+  color: var(--base);
+}
+#responsiveDataTable tr.data-row {
+  background-color: #fff;
+  border-color: var(--base-light) !important;
+  transition: none;
+}
+#responsiveDataTable tr.data-row:hover {
+  background: var(--base-ultra-light) !important;
+}
+#responsiveDataTable tr .numeric {
+  text-align: left;
+}
+#responsiveDataTable [data-title=Status] .cell {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 14px;
+  border-radius: 30px;
+}
+
+/**
+* Last Row: Tabs
+*/
+div[class*=j-c] > div.row > div.row:last-child {
+  margin-top: 4rem;
+}
+
+div[class*=j-c] > div.row > div.row:last-child > div {
+  background-color: transparent !important;
+  box-shadow: none;
+  padding: 0;
+}
+
+div[class*=j-c] > div.row > div.row:last-child > div > div {
+  padding: 0;
+}
+
+/* Tab Container */
+div[class*=j-c] div[id^=tab] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Single Tab */
+div[class*=j-c] .tabs {
+  background-color: transparent !important;
+}
+
+/* Tab Labels */
+div[class*=j-c] .tabs .tab a {
+  color: var(--secondary-dark) !important;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Tab Active */
+div[class*=j-c] .tabs .tab a.active {
+  background-color: var(--secondary) !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* Tab icon */
+ul.tabs .tab a i {
+  padding-right: 0.5em;
+}
+
+.tabs .indicator {
+  display: none;
+}
+
+/* Waves Effect */
+.tabs .waves-effect .waves-rippe {
+  display: none;
+}
+
+/* Tab Count */
+.tabs span.badge.circle {
+  position: relative;
+  display: inline-block;
+  top: auto !important;
+  right: auto;
+  width: 16px;
+  height: 16px;
+  line-height: 17px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-top: -4px;
+  background-color: var(--primary) !important;
+}
+
+/**
+* Tabs Contents
+*/
+/* Comments */
+div[class*=j-c] #tabComments > div {
+  background-color: white;
+  border-top: 5px solid var(--secondary-dark);
+}
+
+div[class*=j-c] #tabComments > div > div:first-child {
+  background-color: transparent !important;
+  text-align: center;
+  min-height: 7rem;
+}
+
+div[class*=j-c] #tabComments > div > div > div {
+  width: 100%;
+}
+
+div[class*=j-c] #tabComments > div > div:last-child .marterial-label {
+  color: var(--base-medium);
+}
+
+div[class*=j-c] #tabContactPersons .grey.lighten-5 {
+  background-color: #fff !important;
+}
+
+div[class*=j-c] #tabContactPersons .blue-grey.darken-1,
+div[class*=j-c] #tabDocuments .blue-grey.darken-3,
+div[class*=j-c] #tabTasks .blue-grey.darken-3,
+div[class*=j-c] #tabArticlePrices .blue-grey.darken-3 {
+  background-color: var(--secondary-dark) !important;
+}
+
+/* ==========================================================================
+      SETTINGS
+========================================================================== */
+/**
+* Settings Navigation
+*/
+.row .col.s2 {
+  position: sticky;
+  top: 0;
+  width: 14%;
+}
+
+.row .col.s2 .collection li {
+  background-color: var(--black-trans-30) !important;
+  font-size: 0.8rem;
+  line-height: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.row .col.s2 .collection li:not(:last-child) {
+  border-bottom: 1px solid var(--white-trans-40);
+}
+
+.row .col.s2 .collection li:first-child {
+  display: none;
+}
+
+.row .col.s2 .collection li:not(:first-child):hover {
+  background-color: #919191 !important;
+}
+
+.row .col.s2 .collection li a {
+  color: #fff !important;
+}
+
+.row .col.s2 .collection li i.left {
+  font-size: 1.6em;
+  width: 1.6rem;
+  line-height: 32px;
+}
+
+/**
+* Settings Contents
+*/
+.row .col.s10 {
+  width: 85%;
+}
+
+/* Row */
+.robawsfield {
+  padding: 6px 3px;
+}
+
+/* Field Label */
+.row:not(.dragdrop-draggable) .robawsfield > .material-label {
+  flex: 0 0 200px !important;
+  max-width: 200px !important;
+  font-size: 0.9rem;
+  overflow-wrap: normal !important;
+}
+
+/* Field Input */
+.robawsfield .flexAll:not(.noWidth):has(input[type=checkbox]) {
+  width: auto !important;
+  margin-left: 0;
+}
+
+.robawsfield .flexAll:not(.noWidth):has(input[type=checkbox]) .material-label {
+  /* margin-top: 0 !important; */
+}
+
+/*# sourceMappingURL=robaws-custom-styles.css.map */
