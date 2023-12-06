@@ -23,11 +23,11 @@ jobs:
 
     - name: Compile SCSS to CSS
       run: npm run build-css
-
-    - name: Commit and push if changed
-      run: |
-        git config --global user.email 'you@example.com'
-        git config --global user.name 'Your Name'
-        git add -A
-        git commit -m "Compiled CSS" || exit 0
-        git push
+      
+- name: Commit and push if changed
+  run: |
+    git config --global user.email 'you@example.com'
+    git config --global user.name 'Your Name'
+    git add -A
+    git commit -m "Compiled CSS" || exit 0
+    git push https://${{ secrets.GH_PAT }}@github.com/your-username/your-repository.git
