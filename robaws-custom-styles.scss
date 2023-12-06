@@ -589,21 +589,38 @@ main.grey.lighten-2 {
 /**
 * Data Table
 */
-#responsiveDataTable .table-header {
-	font-size: 0.9rem;
-	color: var(--base);
-}
-#responsiveDataTable tr.data-row {
-	background-color: #fff;
-	border-color: var(--base-light) !important;
-      transition: none;
-}
-#responsiveDataTable tr.data-row:hover {
-	background: var(--base-ultra-light) !important;
-}
-#responsiveDataTable tr .numeric {
-	text-align: left;
-}
+#responsiveDataTable {
+
+      .table-header {
+	      font-size: 0.9rem;
+	      color: var(--base);
+      }
+      
+      tr.data-row {
+            background-color: #fff;
+            border-color: var(--base-light) !important;
+            transition: none;
+      }
+
+      tr.data-row:hover {
+            background: var(--base-ultra-light) !important;
+      }
+
+      tr .numeric {
+            text-align: left;
+      }
+      
+      /* Status */
+      div[data-title="Status"] .cell {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 6px 14px;
+            border-radius: 30px;
+      }
+}      
+
+
+
 
 /**
 * Last Row: Tabs
