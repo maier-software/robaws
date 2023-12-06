@@ -611,7 +611,7 @@ main.grey.lighten-2 {
       }
       
       /* Status */
-      td[data-title="Status"] .cell {
+      [data-title="Status"] .cell {
             display: inline-block;
             vertical-align: middle;
             padding: 6px 14px;
