@@ -333,43 +333,55 @@ main .card.grey.lighten-5 {
 /**
 * Top Navbar
 */
-
 header {
 	position: relative !important;
 	padding-bottom: 6px;
+
+      nav.blue-grey.darken-3, 
+      nav button.blue-grey.darken-3 {
+	      background-color: var(--base-ultra-light) !important;
+	      color: var(--secondary-dark) !important;
+      }
+      
+      nav {
+	      border-bottom: 1px solid var(--secondary-dark-trans-40);
+      }
+      
+      nav .nav-wrapper {
+	      padding-left: 0;
+      }
+      
+      nav .nav-wrapper > ul:first-of-type span {
+            font-weight: bold;
+      }
+      
+      nav .nav-wrapper a.button-collapse {
+            width: 43px;
+      }
+      
+      nav .nav-wrapper a.button-collape i {
+            transform: scaleX(0.8) scaleY(1.1);
+      }
+      
+      nav .nav-wrapper a.button-collapse,
+      nav .nav-wrapper > ul > li > a,
+      nav .nav-wrapper > ul > li > div > a{
+	      color: var(--secondary-dark) !important;
+	      padding: 0 12px;
+      }
+
+      nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
+      	background-color: var(--secondary-trans-20);
+      }
+      
+      nav .button-collapse i {
+	      font-size: 2rem;
+      }
+      nav i {
+	      font-size: 1.6rem !important;
+      }
 }
-header nav.blue-grey.darken-3, header nav button.blue-grey.darken-3 {
-	background-color: var(--base-ultra-light) !important;
-	color: var(--secondary-dark) !important;
-}
-header nav {
-	border-bottom: 1px solid var(--secondary-dark-trans-40);
-}
-header nav .nav-wrapper {
-	padding-left: 0;
-}
-header nav .nav-wrapper ul:first-of-type span {
-      font-weight: bold;
-}
-header nav .nav-wrapper a.button-collapse {
-      width: 44px;
-}
-header nav .nav-wrapper a.button-collapse,
-header nav .nav-wrapper > ul > li > a,
-header nav .nav-wrapper > ul > li > div > a{
-	color: var(--secondary-dark) !important;
-	padding: 0 12px;
-}
-header nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
-	background-color: var(--secondary-trans-20);
-	/* color: var(--secondary-hover) !important; */
-}
-header nav .button-collapse i {
-	font-size: 2rem;
-}
-header nav i {
-	font-size: 1.6rem !important;
-}
+
 
 /* Dropdown Menus */
 .dropdown-content li {
