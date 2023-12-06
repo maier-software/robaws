@@ -33,6 +33,4 @@ jobs:
       run: |
         git add robaws-custom-styles.css robaws-custom-styles.css.map
         git commit -m "Compile SCSS to CSS" || echo "No changes to commit"
-        git push --set-upstream origin HEAD
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git push https://${{ secrets.GH_PAT }}@github.com/maier-software/robaws.git HEAD:main
