@@ -1,3 +1,18 @@
-"scripts": {
-  "build-css": "sass robaws-custom-styles_custom.scss robaws-custom-styles_custom.css"
+{
+  "name": "robaws",
+  "version": "1.0.0",
+  "description": "robaws add-on css",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass robaws-custom-styles_custom.scss robaws-custom-styles_custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maier-software/robaws.git"
+  },
+  "author": "Johannes Maier",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
 }
