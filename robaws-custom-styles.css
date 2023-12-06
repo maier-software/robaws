@@ -340,6 +340,10 @@ header nav .nav-wrapper ul:first-of-type span {
   font-weight: bold;
 }
 
+header nav .nav-wrapper a.button-collapse {
+  width: 44px;
+}
+
 header nav .nav-wrapper a.button-collapse,
 header nav .nav-wrapper > ul > li > a,
 header nav .nav-wrapper > ul > li > div > a {
