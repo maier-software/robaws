@@ -4,7 +4,7 @@
   "description": "robaws add-on css",
   "main": "index.js",
   "scripts": {
-    "build-css": "sass robaws-custom-styles_custom.scss robaws-custom-styles_custom.css"
+    "build-css": "sass robaws-custom-styles.scss robaws-custom-styles.css"
   },
   "repository": {
     "type": "git",
