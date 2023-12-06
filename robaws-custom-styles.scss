@@ -348,7 +348,7 @@ header nav {
 header nav .nav-wrapper {
 	padding-left: 0;
 }
-header nav .nav-wrapper ul:first-child span {
+header nav .nav-wrapper ul:first-of-type span {
       font-weight: bold;
 }
 header nav .nav-wrapper a.button-collapse,
