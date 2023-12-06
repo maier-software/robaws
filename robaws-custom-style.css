@@ -283,7 +283,6 @@ html, body {
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
 	box-shadow: none;
 }
-
 button {
 	background-image: none !important;
 	background-color: #fff !important;
@@ -294,11 +293,12 @@ button:hover {
 	background-color: var(--secondary) !important;
 }
 button:not(:hover) {
-	color: var(--secondary);
+	color: var(--secondary) ;
 }
 
 button.blue-grey.darken-1 {
 	color: #fff;
+      background-color: var(--white-trans-30) !important;
 }
 
 
