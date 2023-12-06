@@ -1,1 +1,33 @@
+name: Compile SCSS to CSS
 
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Compile SCSS to CSS
+      run: npm run build-css
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email 'you@example.com'
+        git config --global user.name 'Your Name'
+        git add -A
+        git commit -m "Compiled CSS" || exit 0
+        git push
