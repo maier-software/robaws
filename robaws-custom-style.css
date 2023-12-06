@@ -1,3 +1,4 @@
+/* THIS SCSS FILE NEEDS TO BE CONVERTED INTO CSS AND MANUALLY ADDED TO robaws-custom-styles.css */
  :root {
 	 --primary: #27b4af;
 	 --primary-hover: #2dcfc9;
@@ -530,7 +531,7 @@
  #responsiveDataTable tr .numeric {
 	 text-align: left;
 }
- #responsiveDataTable div[data-title="Status"] .cell {
+ #responsiveDataTable td[data-title="Status"] .cell {
 	 display: inline-block;
 	 vertical-align: middle;
 	 padding: 6px 14px;
