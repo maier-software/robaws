@@ -659,7 +659,7 @@ div[class*=j-c] div[id^=tab] {
 
 /* Single Tab */
 div[class*=j-c] .tabs {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 /* Tab Labels */
