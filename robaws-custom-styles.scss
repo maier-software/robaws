@@ -298,6 +298,13 @@ button:not(.fr-btn) {
 }
 
 /**
+* ICONS
+*/
+.material-icons.amber-text.text-darken-1 {
+      color: var(--primary) !important;
+}
+
+/**
 * TOGGLES
 */
 .switch label input[type=checkbox]:checked + .lever {
@@ -314,13 +321,9 @@ button:not(.fr-btn) {
 .robaws-input-field-container {
       background-color: var(--base-ultra-light) !important;
       border: 0 !important;
-
-      /* Icons */
-      + .material-icons.amber-text.text-darken-1 {
-            color: var(--primary) !important;
-      }
 }
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
+      background-color: var(--base-ultra-light);
       border: 0 !important;
       padding-left: 5px;
       
