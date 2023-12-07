@@ -386,7 +386,7 @@ header {
       }
       
       nav .nav-wrapper a.button-collapse i {
-            transform: scaleX(0.6) scaleY(1.1);
+            transform: scaleX(0.45) scaleY(1.1);
       }
       
       nav .nav-wrapper a.button-collapse,
@@ -471,12 +471,14 @@ header {
 	background-color: var(--secondary) !important;
 }
 .side-nav li.active a {
-	color: #fff !important;
+	color: var(--secondary) !important;
 }
+/*
 .side-nav li.active i,
 .side-nav li.active i.amber-text.text-darken-1 {
 	color: #fff !important;
 }
+*/
 body .side-nav li:hover {
 	background-color: var(--secondary-trans-20) !important;
 }
