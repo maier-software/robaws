@@ -438,19 +438,26 @@ header {
 }
 
 
-/* Dropdown Menus */
+/**
+* Dropdown Menus
+*/
 .dropdown-content li {
 	min-height: auto;
+
+      /* Link & Text */
+      > a, > span {
+	      font-size: 0.9rem;
+	      line-height: 1;
+	      padding: 8px 16px;
+      }
+
+      /* Icons */
+      > a > i {
+            font-size: inherit !important;
+      }
 }
-.dropdown-content li > a,
-.dropdown-content li > span {
-	font-size: 0.9rem;
-	line-height: 1;
-	padding: 8px 16px;
-}
-.dropdown-content li > a > i {
-	font-size: inherit !important;
-}
+
+
 
 /* Tooltips */
 .material-tooltip {
@@ -466,7 +473,7 @@ header {
 
 
 /**
-* Left Sidebar
+* LEFT SIDEBAR
 */
 
 .side-nav.blue-grey.darken-1 {
@@ -507,121 +514,137 @@ i.left {
 }
 
 
-/* --- LINKS --- */
+/**
+* LINKS
+*/
 
 .side-nav {
 	display: flex;
 	flex-flow: column;
-}
-/* Kunden */
-.side-nav li:nth-child(1) {
-	order: 1;
-}
-/* Angebot */
-.side-nav li:nth-child(2) {
-	order: 2;
-}
-/* Projekte */
-.side-nav li:nth-child(3) {
-	order: 3;
-}
-/* Aufträge */
-.side-nav li:nth-child(4) {
-	order: 4;
-}
-/* Serviceauftrag */
-.side-nav li:nth-child(6) {
-	order: 5;
-}
 
-/* Lieferanten */
-.side-nav li:nth-child(14) {
-	order: 6;
-	border-top: 1px solid var(--secondary-dark-trans-40);
-}
-/* Bestellungen */
-.side-nav li:nth-child(15) {
-	order: 7;
-}
-/* Lieferscheine */
-.side-nav li:nth-child(5) {
-	order: 8;
-}
+      /* Kunden */
+      li:nth-child(1) {
+	      order: 1;
+      }
 
-/* Artikel */
-.side-nav li:nth-child(17) {
-	order: 9;
-	border-top: 1px solid var(--secondary-dark-trans-40);
-}
-/* Geräte */
-.side-nav li:nth-child(18) {
-	order: 10;
-}
-/* Installationen */
-.side-nav li:nth-child(19) {
-	order: 11;
-}
-/* Lagerverwaltung */
-.side-nav li:nth-child(20) {
-	order: 12;
-}
+      /* Angebot */
+      li:nth-child(2) {
+	      order: 2;
+      }
 
-/* Projektplannung */
-.side-nav li:nth-child(23) {
-	order: 13;
-	border-top: 1px solid var(--secondary-dark-trans-40);
-}
-/* Tagesplan */
-.side-nav li:nth-child(22) {
-	order: 14;
-}
-/* Mitarbeiter */
-.side-nav li:nth-child(21) {
-	order: 15;
-}
-/* Arbeitszeiten */
-.side-nav li:nth-child(9) {
-	order: 16;
-}
+      /* Projekte */
+      li:nth-child(3) {
+	      order: 3;
+      }
 
-/* Rechnungen */
-.side-nav li:nth-child(12) {
-	order: 17;
-	border-top: 1px solid var(--secondary-dark-trans-40);
-}
-/* Eingangsrechnungen */
-.side-nav li:nth-child(16) {
-	order: 18;
-}
-/* Zahlungsausgleich */
-.side-nav li:nth-child(7) {
-	order: 19;
-}
-/* Mahnungen */
-.side-nav li:nth-child(8) {
-	order: 20;
-}
+      /* Aufträge */
+      li:nth-child(4) {
+	      order: 4;
+      }
 
-/* EMPTY - Zeitregistrierung */
-.side-nav li:nth-child(10) {
-	order: 0;
-}
-/* EMPTY - Local Shipping / Transport */
-.side-nav li:nth-child(11) {
-	order: 0;
-}
-/* EMPTY - Monetazation / Kasse */
-.side-nav li:nth-child(13) {
-	order: 0;
-}
+      /* Serviceauftrag */
+      li:nth-child(6) {
+	      order: 5;
+      }
 
-/* Auswertung */
-.side-nav li:nth-child(24) {
-	order: 24;
-	border-top: 1px solid var(--secondary-dark-trans-40);
+      /* Lieferanten */
+      li:nth-child(14) {
+	      order: 6;
+	      border-top: 1px solid var(--secondary-dark-trans-40);
+      }
+
+      /* Bestellungen */
+      li:nth-child(15) {
+	      order: 7;
+      }
+
+      /* Lieferscheine */
+      li:nth-child(5) {
+	      order: 8;
+      }
+
+      /* Artikel */
+      li:nth-child(17) {
+	      order: 9;
+	      border-top: 1px solid var(--secondary-dark-trans-40);
+      }
+
+      /* Betriebsmittel */
+      li:nth-child(18) {
+	      order: 10;
+      }
+
+      /* Anlagen-Tracking */
+      li:nth-child(19) {
+	      order: 11;
+      }
+
+      /* Lagerverwaltung */
+      li:nth-child(20) {
+	      order: 12;
+      }
+
+      /* Projektplannung */
+      li:nth-child(23) {
+	      order: 13;
+	      border-top: 1px solid var(--secondary-dark-trans-40);
+      }
+
+      /* Tagesplan */
+      li:nth-child(22) {
+	      order: 14;
+      }
+
+      /* Mitarbeiter */
+      li:nth-child(21) {
+	      order: 15;
+      }
+
+      /* Auftragsberichte */
+      li:nth-child(9) {
+	      order: 16;
+      }
+
+      /* Rechnungen */
+      li:nth-child(12) {
+	      order: 17;
+	      border-top: 1px solid var(--secondary-dark-trans-40);
+      }
+
+      /* Eingangsrechnungen */
+      li:nth-child(16) {
+	      order: 18;
+      }
+      
+      /* Nachtragsangebot */
+      li:nth-child(7) {
+	      order: 19;
+      }
+
+      /* Anspruchserklärungen */
+      li:nth-child(8) {
+	      order: 20;
+      }
+
+      /* Zeitregistrierung */
+      li:nth-child(10) {
+	      order: 16;
+      }
+      /* Fracht */
+      li:nth-child(11) {
+	      order: 9;
+      }
+      /* Kasse */
+      li:nth-child(13) {
+	      order: 25;
+      }
+
+      /* Auswertung */
+      .side-nav li:nth-child(24) {
+	      order: 24;
+	      border-top: 1px solid var(--secondary-dark-trans-40);
+      }
 }
-
-
 
 
 
