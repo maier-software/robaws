@@ -373,16 +373,18 @@ header {
       nav .nav-wrapper ul:nth-of-type(2) li .row {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            height: 64px;
             font-size: 80%;
-            text-align: center;
 
             .col {
                   display: flex;
-                  float: none;
-                  height: 33px;
-                  line-height: inherit;
-                  vertical-align: middle;
                   align-items: center;
+                  justify-content: center;
+                  float: none;
+                  height: 26px;
+                  line-height: inherit;
+                  
             }
 
       }
