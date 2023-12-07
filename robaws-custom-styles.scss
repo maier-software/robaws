@@ -311,7 +311,7 @@ button:not(.fr-btn) {
 /**
 * INPUT FIELDS
 */
-.robaws-combo-field-container .robaws-input-field-container/*,
+/*.robaws-combo-field-container */.robaws-input-field-container/*,
 .robaws-input-field:not(.robaws-combo-text-field) */ {
       background-color: var(--base-ultra-light);
       border: 0;
