@@ -473,14 +473,12 @@ header {
 }
 */
 .side-nav li.active a {
-	color: var(--secondary) !important;
+	color: var(--secondary) !important !important;
 }
-/*
 .side-nav li.active i,
 .side-nav li.active i.amber-text.text-darken-1 {
-	color: #fff !important;
+	color: var(--secondary) !important;
 }
-*/
 body .side-nav li:hover {
 	background-color: var(--secondary-trans-20) !important;
 }
