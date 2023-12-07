@@ -317,10 +317,14 @@ button:not(.fr-btn) {
       border: 0;
       padding: 6px !important;
 
+      /* Icons */
       .amber-text.text-darken-1 {
             color: var(--primary) !important;
       }
-  }
+}
+input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
+      border-bottom: 0;
+}
 
 
 /* DELETE BOX-SHADOW */
