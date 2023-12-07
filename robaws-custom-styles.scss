@@ -415,6 +415,17 @@ header {
             
                   }
 
+                  /* Notification Bubbles */
+                  span.badge.circle {
+                        width: 18px;
+                        height: 18px;
+                        font-size: 0.7rem;
+                        font-weight: bold;
+                        line-height: 20px;
+                        background-color: var(--primary) !important;
+                        padding: 0;
+                  }
+
             }
             
             /* User Account */
