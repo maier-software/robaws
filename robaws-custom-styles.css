@@ -336,6 +336,9 @@ header nav button.blue-grey.darken-3 img {
   height: 36px !important;
   padding: 4px;
 }
+header nav button.blue-grey.darken-3 + ul.dropdown-content {
+  background-color: #e0e0e1;
+}
 header nav {
   border-bottom: 1px solid var(--secondary-dark-trans-40);
 }
