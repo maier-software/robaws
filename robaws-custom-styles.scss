@@ -298,13 +298,6 @@ button {
             color: #fff;
             background-color: var(--white-trans-30) !important;
       }
-
-      /* Settings Save Button */
-      &.green.darken-2 {
-      	background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
-	      color: #fff;
-	      line-height: 34px;
-      }
 }
 
 
@@ -893,6 +886,14 @@ div[class*="j-c"] #tabArticlePrices .blue-grey.darken-3 {
 /* Row */
 .robawsfield {
 	padding: 6px 3px;
+}
+
+/* Settings Save Button */
+.s2.col + button.green.darken-2 {
+      height: 50px;
+      background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
+      color: #fff;
+      line-height: 48px;
 }
 
 /* Field Label */
