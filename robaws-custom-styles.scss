@@ -315,7 +315,6 @@ button:not(.fr-btn) {
 .robaws-input-field:not(.robaws-combo-text-field) */ {
       background-color: var(--base-ultra-light);
       border: 0;
-      padding: 6px !important;
 
       /* Icons */
       .amber-text.text-darken-1 {
@@ -324,6 +323,7 @@ button:not(.fr-btn) {
 }
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
       border-bottom: 0;
+      padding: 5px;
 }
 
 
