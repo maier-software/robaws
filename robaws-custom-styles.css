@@ -277,7 +277,7 @@ html, body {
 */
 button {
   background-image: none !important;
-  background-color: #fff !important;
+  background-color: var(--secondary) !important;
   border: 2px solid var(--secondary);
   margin-left: 0;
 }
@@ -285,7 +285,7 @@ button:hover {
   background-color: var(--secondary) !important;
 }
 button:not(:hover) {
-  color: var(--secondary);
+  color: var(--white);
 }
 button.blue-grey.darken-1 {
   color: #fff;
