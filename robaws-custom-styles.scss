@@ -297,7 +297,15 @@ button {
       }
 }
 
-
+/**
+* TOGGLES
+*/
+.switch label input[type=checkbox]:checked + .lever {
+      background-color: var(--secondary-light);
+}
+.switch label input[type=checkbox]:checked + .lever:after {
+      background-color: var(--secondary);
+}
 
 /* DELETE BOX-SHADOW */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
