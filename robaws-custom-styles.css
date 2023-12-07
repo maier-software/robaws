@@ -396,9 +396,11 @@ header nav .nav-wrapper span.badge.circle {
   height: 18px;
   font-size: 0.7rem;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 18px;
+  vertical-align: middle;
+  text-align: center;
   background-color: var(--primary) !important;
-  padding: 0;
+  padding: 0 1px 0 0;
 }
 header nav button.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
