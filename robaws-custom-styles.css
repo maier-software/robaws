@@ -275,11 +275,6 @@ html, body {
 /**
 * BUTTONS
 */
-.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
-  box-shadow: none;
-}
-
-/* General Button */
 button {
   background-image: none !important;
   background-color: #fff !important;
@@ -303,8 +298,10 @@ button.green.darken-2 {
   line-height: 34px;
 }
 
-/* Delete box-shadow */
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+/* DELETE BOX-SHADOW */
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover,
+.collapsible.popout > li, .collapsible.popout > li.active {
   box-shadow: none;
 }
 
