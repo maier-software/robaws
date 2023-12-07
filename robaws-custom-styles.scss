@@ -323,6 +323,9 @@ button:not(.fr-btn) {
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
       border: 0 !important;
       
+      &.gwt-TextBox {
+            border: 1px solid #000;
+      }
 }
 
 
@@ -333,11 +336,20 @@ input[type=text], input[type=password], input[type=date], input[type=time], inpu
 	box-shadow: none;
 }
 
+/**
+* CARDS
+*/
 main .card,
 main .card.grey.lighten-3,
 main .card.grey.lighten-5 {
-	background-color: #fff !important;
+      background-color: inherit !important;
 	padding-top: 10px !important;
+      
+      .card-title {
+            color: var(--secondary-base) !important;
+      }
+
+	
 }
 
 
