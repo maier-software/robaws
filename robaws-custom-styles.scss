@@ -894,6 +894,15 @@ div[class*="j-c"] #tabArticlePrices .blue-grey.darken-3 {
       background-image: linear-gradient(45deg,var(--primary) 0%,var(--secondary) 100%) !important;
       color: #fff;
       line-height: 48px;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+      background-size: 200% 100%;
+
+      &:hover {
+            background-position: 100% 0;
+      }
 }
 
 /* Field Label */
