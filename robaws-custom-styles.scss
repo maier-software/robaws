@@ -278,18 +278,6 @@ html, body {
       transform: translateY(-50%)
 }
 
-main:after {
-      content:"";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 179px;
-      height: 100px;
-      background-image: url("https://robaws.maier.software/wp-content/uploads/2023/10/logo.svg");
-      background-size: 159px auto;
-      background-position: center;
-}
-
 /**
 * BUTTONS
 */
@@ -530,6 +518,19 @@ header {
 
       i.left {
             margin-right: 5px;
+      }
+
+      /* Branding */
+      &:after {
+            content:"";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 179px;
+            height: 100px;
+            background-image: url("https://robaws.maier.software/wp-content/uploads/2023/10/logo.svg");
+            background-size: 159px auto;
+            background-position: center;
       }
 
 }
