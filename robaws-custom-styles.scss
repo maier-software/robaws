@@ -354,6 +354,10 @@ header {
                   height: 36px !important;
                   padding: 4px;
             }
+
+            + ul.dropdown-content {
+                  background-color: #e0e0e1;
+            }
       }
       
       nav {
