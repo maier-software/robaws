@@ -353,15 +353,19 @@ header nav .nav-wrapper ul:nth-of-type(2) li .row {
   flex-direction: column;
   justify-content: center;
   height: 64px;
-  font-size: 80%;
+  font-size: 0.7rem;
+  color: var(--secondary-dark-trans-70);
 }
 header nav .nav-wrapper ul:nth-of-type(2) li .row .col {
   display: flex;
   align-items: center;
   justify-content: center;
   float: none;
-  height: 16px;
+  height: 14px;
   line-height: inherit;
+}
+header nav .nav-wrapper ul:nth-of-type(2) li .row .col .material-label {
+  line-height: 1;
 }
 header nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
   background-color: var(--secondary-trans-20);
