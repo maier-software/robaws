@@ -309,6 +309,9 @@ button:not(.fr-btn):hover {
   border: 0;
   padding: 6px !important;
 }
+.robaws-combo-field-container .robaws-input-field-container .amber-text.text-darken-1 {
+  color: var(--primary) !important;
+}
 
 /* DELETE BOX-SHADOW */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
