@@ -274,18 +274,6 @@ html, body {
   transform: translateY(-50%);
 }
 
-main:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 179px;
-  height: 100px;
-  background-image: url("https://robaws.maier.software/wp-content/uploads/2023/10/logo.svg");
-  background-size: 159px auto;
-  background-position: center;
-}
-
 /**
 * BUTTONS
 */
@@ -466,6 +454,7 @@ header nav button.blue-grey.darken-3 + ul.dropdown-content a {
 .side-nav.blue-grey.darken-1 {
   background-color: var(--base-ultra-light) !important;
   border-right: 1px solid var(--secondary-dark-trans-40);
+  /* Branding */
 }
 .side-nav.blue-grey.darken-1 li.active a {
   color: var(--secondary) !important;
@@ -493,6 +482,17 @@ header nav button.blue-grey.darken-3 + ul.dropdown-content a {
 }
 .side-nav.blue-grey.darken-1 i.left {
   margin-right: 5px;
+}
+.side-nav.blue-grey.darken-1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 179px;
+  height: 100px;
+  background-image: url("https://robaws.maier.software/wp-content/uploads/2023/10/logo.svg");
+  background-size: 159px auto;
+  background-position: center;
 }
 
 /**
