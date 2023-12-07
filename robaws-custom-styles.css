@@ -274,6 +274,16 @@ html, body {
   transform: translateY(-50%);
 }
 
+main:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 100px;
+  background-image: url("https://robaws.maier.software/wp-content/uploads/2023/10/logo.svg");
+}
+
 /**
 * BUTTONS
 */
