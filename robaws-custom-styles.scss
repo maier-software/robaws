@@ -351,18 +351,11 @@ header {
             background-color: var(--base-ultra-light) !important;
             color: var(--secondary-dark) !important;
             
-            /* Avatar */
-            img {
-                  height: 36px !important;
-                  padding: 4px;
-            }
-            
             /* Settings Menu */
             + ul.dropdown-content {
                   background-color: var(--base-ultra-light);
                   padding-top: 8px;
                   padding-bottom: 8px;
-                  margin-top: -14px;
             }
       }
       
