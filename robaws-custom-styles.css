@@ -630,6 +630,7 @@ main.grey.lighten-2 {
   color: var(--base);
 }
 #responsiveDataTable tr.data-row {
+  height: 46px !important;
   background-color: #fff;
   border-color: var(--base-light) !important;
   transition: none;
@@ -643,7 +644,7 @@ main.grey.lighten-2 {
 #responsiveDataTable [data-title=Status] .cell {
   display: inline-block;
   vertical-align: middle;
-  padding: 5px 14px;
+  padding: 4px 14px 3px;
   border-radius: 30px;
 }
 
