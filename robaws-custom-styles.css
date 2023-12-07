@@ -585,7 +585,7 @@ i.left {
 .side-nav li:nth-child(13) {
   order: 23;
 }
-.side-nav .side-nav li:nth-child(24) {
+.side-nav li:nth-child(24) {
   order: 27;
   border-top: 1px solid var(--secondary-dark-trans-40);
 }
