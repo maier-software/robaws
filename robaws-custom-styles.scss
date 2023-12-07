@@ -283,15 +283,12 @@ html, body {
 button {
 	background-image: none !important;
 	background-color: var(--secondary) !important;
+      color: var(--white)
 	border: 2px solid var(--secondary);
 	margin-left: 0;
 
       &:hover {
-            background-color: var(--secondary) !important;
-      }
-
-      &:not(:hover) {
-            color: var(--white) ;
+            background-color: var(--secondary-hover) !important;
       }
 
       &.blue-grey.darken-1 {
