@@ -485,7 +485,7 @@ header {
 * LEFT SIDEBAR
 */
 .side-nav.blue-grey.darken-1 {
-      background-color: transparent !important;
+      background-color: var(--base-ultra-light) !important;;
 	border-right: 1px solid var(--secondary-dark-trans-40);
 
       li.active a {
@@ -669,7 +669,7 @@ header {
 * Main Container 
 */
 main.grey.lighten-2 {
-      background-color: var(--base-ultra-light) !important;
+      background-color: #fff !important;
 }
 
 /**
