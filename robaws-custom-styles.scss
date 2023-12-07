@@ -316,7 +316,7 @@ button:not(.fr-btn) {
       border: 0;
 
       /* Icons */
-      .material-icons.amber-text.text-darken-1 {
+      + .material-icons.amber-text.text-darken-1 {
             color: var(--primary) !important;
       }
 }
