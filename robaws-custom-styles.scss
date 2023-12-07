@@ -323,7 +323,7 @@ button:not(.fr-btn) {
       border: 0 !important;
 }
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
-      background-color: var(--base-ultra-light);
+      background-color: var(--base-ultra-light) !important;
       border: 0 !important;
       padding-left: 5px;
       
