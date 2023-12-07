@@ -375,16 +375,20 @@ header {
             flex-direction: column;
             justify-content: center;
             height: 64px;
-            font-size: 80%;
+            font-size: 0.7rem;
+            color: var(--secondary-dark-trans-70);
 
             .col {
                   display: flex;
                   align-items: center;
                   justify-content: center;
                   float: none;
-                  height: 16px;
+                  height: 14px;
                   line-height: inherit;
                   
+                  .material-label {
+                        line-height: 1;
+                  }
             }
 
       }
