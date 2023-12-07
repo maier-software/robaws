@@ -305,8 +305,8 @@ button:not(.fr-btn):hover {
 * INPUT FIELDS
 */
 .robaws-input-field-container {
-  background-color: var(--base-ultra-light);
-  border: 0;
+  background-color: var(--base-ultra-light) !important;
+  border: 0 !important;
   /* Icons */
 }
 .robaws-input-field-container + .material-icons.amber-text.text-darken-1 {
@@ -315,6 +315,7 @@ button:not(.fr-btn):hover {
 
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
   border: 0 !important;
+  padding-left: 5px;
 }
 input[type=text].gwt-TextBox, input[type=password].gwt-TextBox, input[type=date].gwt-TextBox, input[type=time].gwt-TextBox, input[type=datetime-local].gwt-TextBox {
   border: 1px solid #000;
