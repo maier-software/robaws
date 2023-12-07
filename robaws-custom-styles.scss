@@ -339,21 +339,25 @@ header {
 	position: relative !important;
 	padding-bottom: 6px;
 
+      /* Nav */
       nav.blue-grey.darken-3 {
 	      background-color: var(--base-ultra-light) !important;
 	      color: var(--secondary-dark) !important;
+            border-bottom: 1px solid var(--secondary-dark-trans-40);
       }
 
       /* User Account */
       nav button.blue-grey.darken-3 {
             background-color: var(--base-ultra-light) !important;
             color: var(--secondary-dark) !important;
-
+            
+            /* Avatar */
             img {
                   height: 36px !important;
                   padding: 4px;
             }
-
+            
+            /* Settings Menu */
             + ul.dropdown-content {
                   background-color: var(--base-ultra-light);
                   padding-top: 8px;
