@@ -327,9 +327,9 @@ header nav.blue-grey.darken-3 {
   color: var(--secondary-dark) !important;
 }
 header nav button.blue-grey.darken-3 {
-  background-color: var(--base-light-trans-70) !important;
+  background-color: var(--base-light-trans-50) !important;
   padding: 0;
-  margin: 0 2rem;
+  margin: 0 4rem 0 0;
   color: var(--secondary-dark) !important;
 }
 header nav button.blue-grey.darken-3 img {
@@ -337,7 +337,7 @@ header nav button.blue-grey.darken-3 img {
   padding: 4px;
 }
 header nav button.blue-grey.darken-3 + ul.dropdown-content {
-  background-color: #e0e0e1;
+  background-color: #e6e5e6;
 }
 header nav {
   border-bottom: 1px solid var(--secondary-dark-trans-40);
