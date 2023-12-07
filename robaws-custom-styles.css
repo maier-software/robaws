@@ -342,6 +342,7 @@ header nav .nav-wrapper {
   /* Hamburger */
   /* Title */
   /* Sync Now Text */
+  /* Notification Bubbles */
 }
 header nav .nav-wrapper a.button-collapse,
 header nav .nav-wrapper > ul > li > a,
@@ -389,6 +390,15 @@ header nav .nav-wrapper ul:nth-of-type(2) li .row .col {
 }
 header nav .nav-wrapper ul:nth-of-type(2) li .row .col .material-label {
   line-height: 1;
+}
+header nav .nav-wrapper span.badge.circle {
+  width: 18px;
+  height: 18px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 20px;
+  background-color: var(--primary) !important;
+  padding: 0;
 }
 header nav button.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
