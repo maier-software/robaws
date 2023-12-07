@@ -441,7 +441,7 @@ header nav i {
 }
 */
 .side-nav li.active a {
-  color: var(--secondary) !important !important;
+  color: var(--secondary) !important;
 }
 
 .side-nav li.active i,
