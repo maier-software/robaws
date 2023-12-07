@@ -307,7 +307,6 @@ button:not(.fr-btn):hover {
 .robaws-combo-field-container .robaws-input-field-container {
   background-color: var(--base-ultra-light);
   border: 0;
-  padding: 6px !important;
   /* Icons */
 }
 .robaws-combo-field-container .robaws-input-field-container .amber-text.text-darken-1 {
@@ -316,6 +315,7 @@ button:not(.fr-btn):hover {
 
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
   border-bottom: 0;
+  padding: 5px;
 }
 
 /* DELETE BOX-SHADOW */
