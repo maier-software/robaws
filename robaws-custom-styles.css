@@ -592,11 +592,13 @@ main.grey.lighten-2 {
 * Search bar
 */
 .tablesearchmain.blue-grey.darken-3 {
-  background-color: var(--secondary) !important;
+  background-color: var(--white) !important;
 }
-
-.tablesearchmain .swBox.blue-grey.darken-1 {
-  background-color: var(--white-trans-40) !important;
+.tablesearchmain.blue-grey.darken-3 .swBox.blue-grey.darken-1 {
+  background-color: transparent !important;
+}
+.tablesearchmain.blue-grey.darken-3 .white-text {
+  color: #666 !important;
 }
 
 #responsiveDataTable tr.data-row {
