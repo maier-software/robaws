@@ -435,10 +435,11 @@ header nav i {
   border-right: 1px solid var(--secondary-dark-trans-40);
 }
 
+/*
 .side-nav li.active {
-  background-color: var(--secondary) !important;
+	background-color: var(--secondary) !important;
 }
-
+*/
 .side-nav li.active a {
   color: var(--secondary) !important;
 }
