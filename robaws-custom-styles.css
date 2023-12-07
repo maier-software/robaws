@@ -680,6 +680,7 @@ div[class*=j-c] .tabs .tab a.active {
 
 /* Tab NOT Active */
 div[class*=j-c] .tabs .tab a:not(.active) {
+  background-color: var(--secondary-ultra-light);
   box-shadow: inset 0 0 0px 2px var(--secondary);
 }
 
