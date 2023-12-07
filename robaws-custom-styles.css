@@ -327,9 +327,15 @@ header nav.blue-grey.darken-3 {
   color: var(--secondary-dark) !important;
 }
 header nav button.blue-grey.darken-3 {
-  background-color: var(--secondary-dark-trans-40) !important;
+  background-color: var(--secondary-dark-trans-20) !important;
   padding: 0;
   margin: 0 2rem;
+  color: var(--secondary-dark) !important;
+  border-radius: 20px;
+}
+header nav button.blue-grey.darken-3 img {
+  height: 35px;
+  padding: 5px;
 }
 header nav {
   border-bottom: 1px solid var(--secondary-dark-trans-40);
