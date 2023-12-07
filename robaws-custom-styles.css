@@ -360,7 +360,7 @@ header nav .nav-wrapper ul:nth-of-type(2) li .row .col {
   align-items: center;
   justify-content: center;
   float: none;
-  height: 26px;
+  height: 16px;
   line-height: inherit;
 }
 header nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
