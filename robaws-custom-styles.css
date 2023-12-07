@@ -316,6 +316,9 @@ button:not(.fr-btn):hover {
 input[type=text], input[type=password], input[type=date], input[type=time], input[type=datetime-local] {
   border: 0 !important;
 }
+input[type=text].gwt-TextBox, input[type=password].gwt-TextBox, input[type=date].gwt-TextBox, input[type=time].gwt-TextBox, input[type=datetime-local].gwt-TextBox {
+  border: 1px solid #000;
+}
 
 /* DELETE BOX-SHADOW */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
@@ -324,11 +327,19 @@ input[type=text], input[type=password], input[type=date], input[type=time], inpu
   box-shadow: none;
 }
 
+/**
+* CARDS
+*/
 main .card,
 main .card.grey.lighten-3,
 main .card.grey.lighten-5 {
-  background-color: #fff !important;
+  background-color: inherit !important;
   padding-top: 10px !important;
+}
+main .card .card-title,
+main .card.grey.lighten-3 .card-title,
+main .card.grey.lighten-5 .card-title {
+  color: var(--secondary-base) !important;
 }
 
 /* ==========================================================================
