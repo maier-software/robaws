@@ -322,10 +322,14 @@ header {
   position: relative !important;
   padding-bottom: 6px;
 }
-header nav.blue-grey.darken-3,
-header nav button.blue-grey.darken-3 {
+header nav.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
   color: var(--secondary-dark) !important;
+}
+header nav button.blue-grey.darken-3 {
+  background-color: var(--base-light) !important;
+  padding: 0;
+  margin: 0 2rem;
 }
 header nav {
   border-bottom: 1px solid var(--secondary-dark-trans-40);
