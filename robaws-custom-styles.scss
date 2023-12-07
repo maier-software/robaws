@@ -370,6 +370,23 @@ header {
 	      padding: 0 12px;
       }
 
+      nav .nav-wrapper ul:nth-of-type(2) li .row {
+            display: flex;
+            flex-direction: column;
+            font-size: 80%;
+            text-align: center;
+
+            .col {
+                  display: flex;
+                  float: none;
+                  height: 33px;
+                  line-height: inherit;
+                  vertical-align: middle;
+                  align-items: center;
+            }
+
+      }
+
       nav .nav-wrapper ul:not(.dropdown-content) li a:hover {
       	background-color: var(--secondary-trans-20);
       }
