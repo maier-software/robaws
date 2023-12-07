@@ -345,14 +345,13 @@ header {
       }
 
       nav button.blue-grey.darken-3 {
-            background-color: var(--secondary-dark-trans-20) !important;
+            background-color: var(--base-light-trans-70) !important;
             padding: 0;
             margin: 0 2rem;
             color: var(--secondary-dark) !important;
-            border-radius: 20px;
 
             img {
-                  height: 36px;
+                  height: 36px !important;
                   padding: 4px;
                   border-radius: 50%;
             }
