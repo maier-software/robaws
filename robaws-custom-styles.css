@@ -265,6 +265,7 @@ html, body {
   padding-top: 0 !important;
 }
 
+/* Loading Animation Image */
 #robaws-bootstrapping img {
   background: rgb(255, 255, 255);
   background: radial-gradient(circle, rgb(255, 255, 255) 60%, var(--base-ultra-light) 100%);
@@ -322,15 +323,14 @@ main .card.grey.lighten-5 {
 header {
   position: relative !important;
   padding-bottom: 6px;
+  /* User Account */
 }
 header nav.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
   color: var(--secondary-dark) !important;
 }
 header nav button.blue-grey.darken-3 {
-  background-color: var(--base-light-trans-50) !important;
-  padding: 0;
-  margin: 0 4rem 0 0;
+  background-color: var(--base-ultra-light) !important;
   color: var(--secondary-dark) !important;
 }
 header nav button.blue-grey.darken-3 img {
@@ -338,7 +338,7 @@ header nav button.blue-grey.darken-3 img {
   padding: 4px;
 }
 header nav button.blue-grey.darken-3 + ul.dropdown-content {
-  background-color: #e6e5e6;
+  background-color: var(--base-ultra-light);
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: -14px;
