@@ -323,15 +323,19 @@ main .card.grey.lighten-5 {
 header {
   position: relative !important;
   padding-bottom: 6px;
+  /* Nav */
   /* User Account */
 }
 header nav.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
   color: var(--secondary-dark) !important;
+  border-bottom: 1px solid var(--secondary-dark-trans-40);
 }
 header nav button.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
   color: var(--secondary-dark) !important;
+  /* Avatar */
+  /* Settings Menu */
 }
 header nav button.blue-grey.darken-3 img {
   height: 36px !important;
