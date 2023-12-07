@@ -507,9 +507,9 @@ i.left {
   /* Zeitregistrierung */
   /* Rechnungen */
   /* Eingangsrechnungen */
+  /* Kasse */
   /* Nachtragsangebot */
   /* Anspruchserklärungen */
-  /* Kasse */
   /* Auswertung */
 }
 .side-nav li:nth-child(1) {
@@ -576,13 +576,13 @@ i.left {
 .side-nav li:nth-child(16) {
   order: 20;
 }
-.side-nav li:nth-child(7) {
+.side-nav li:nth-child(13) {
   order: 21;
 }
-.side-nav li:nth-child(8) {
+.side-nav li:nth-child(7) {
   order: 22;
 }
-.side-nav li:nth-child(13) {
+.side-nav li:nth-child(8) {
   order: 23;
 }
 .side-nav li:nth-child(24) {
