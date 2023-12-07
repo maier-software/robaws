@@ -674,6 +674,11 @@ div[class*=j-c] .tabs .tab a.active {
   font-weight: bold;
 }
 
+/* Tab NOT Active */
+div[class*=j-c] .tabs .tab a:not(.active) {
+  box-shadow: inset 0 0 0px 4px var(--secondary);
+}
+
 /* Tab icon */
 ul.tabs .tab a i {
   padding-right: 0.5em;
