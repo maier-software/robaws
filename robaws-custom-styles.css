@@ -674,6 +674,7 @@ div[class*=j-c] div[id^=tab] {
 
 /* Single Tab */
 div[class*=j-c] .tabs {
+  width: 100% !important;
   height: 52px;
   background-color: white !important;
   border: 2px solid var(--secondary);
