@@ -578,70 +578,72 @@ i.left {
       li:nth-child(19) {
 	      order: 11;
       }
+      
+      /* Fracht */
+      li:nth-child(11) {
+	      order: 12;
+      }
 
       /* Lagerverwaltung */
       li:nth-child(20) {
-	      order: 12;
+	      order: 13;
       }
 
       /* Projektplannung */
       li:nth-child(23) {
-	      order: 13;
+	      order: 14;
 	      border-top: 1px solid var(--secondary-dark-trans-40);
       }
 
       /* Tagesplan */
       li:nth-child(22) {
-	      order: 14;
+	      order: 15;
       }
 
       /* Mitarbeiter */
       li:nth-child(21) {
-	      order: 15;
+	      order: 16;
       }
 
       /* Auftragsberichte */
       li:nth-child(9) {
-	      order: 16;
+	      order: 17;
+      }
+
+      /* Zeitregistrierung */
+      li:nth-child(10) {
+	      order: 18;
       }
 
       /* Rechnungen */
       li:nth-child(12) {
-	      order: 17;
+	      order: 19;
 	      border-top: 1px solid var(--secondary-dark-trans-40);
       }
 
       /* Eingangsrechnungen */
       li:nth-child(16) {
-	      order: 18;
+	      order: 20;
       }
       
       /* Nachtragsangebot */
       li:nth-child(7) {
-	      order: 19;
+	      order: 21;
       }
 
       /* Anspruchserklärungen */
       li:nth-child(8) {
-	      order: 20;
+	      order: 22;
       }
-
-      /* Zeitregistrierung */
-      li:nth-child(10) {
-	      order: 16;
-      }
-      /* Fracht */
-      li:nth-child(11) {
-	      order: 9;
-      }
+  
       /* Kasse */
       li:nth-child(13) {
-	      order: 25;
+	      order: 23;
       }
 
       /* Auswertung */
       .side-nav li:nth-child(24) {
-	      order: 24;
+	      order: 27;
 	      border-top: 1px solid var(--secondary-dark-trans-40);
       }
 }
