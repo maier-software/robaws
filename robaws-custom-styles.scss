@@ -302,16 +302,17 @@ button:not(.fr-btn) {
 */
 .switch label input[type=checkbox]:checked + .lever {
       background-color: var(--secondary-light);
-}
-.switch label input[type=checkbox]:checked + .lever:after {
-      background-color: var(--secondary);
+
+      &:after {
+            background-color: var(--secondary);
+      }
 }
 
 /**
 * INPUT FIELDS
 */
-.robaws-combo-field-container .robaws-input-field-container,
-.robaws-input-field:not(.robaws-combo-text-field) {
+.robaws-combo-field-container .robaws-input-field-container/*,
+.robaws-input-field:not(.robaws-combo-text-field) */ {
       background-color: var(--base-ultra-light);
       border: 0;
       padding: 6px !important;
