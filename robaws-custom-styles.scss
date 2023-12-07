@@ -626,21 +626,21 @@ i.left {
 	      order: 20;
       }
       
+      /* Kasse */
+      li:nth-child(13) {
+            order: 21;
+      }
+
       /* Nachtragsangebot */
       li:nth-child(7) {
-	      order: 21;
+	      order: 22;
       }
 
       /* Anspruchserklärungen */
       li:nth-child(8) {
-	      order: 22;
-      }
-  
-      /* Kasse */
-      li:nth-child(13) {
 	      order: 23;
       }
-
+  
       /* Auswertung */
       li:nth-child(24) {
 	      order: 27;
