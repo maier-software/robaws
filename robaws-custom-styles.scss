@@ -280,11 +280,6 @@ html, body {
 /**
 * BUTTONS
 */
- {
-	box-shadow: none;
-}
-
-/* General Button */
 button {
 	background-image: none !important;
 	background-color: #fff !important;
@@ -314,7 +309,7 @@ button {
 
 
 
-/* Delete box-shadow */
+/* DELETE BOX-SHADOW */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
 /* Buttons*/ .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover,
 /* Content boxes */ .collapsible.popout > li, .collapsible.popout > li.active {
