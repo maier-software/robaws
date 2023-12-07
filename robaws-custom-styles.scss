@@ -315,8 +315,9 @@ button {
 
 
 /* Delete box-shadow */
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav, .collapsible.popout > li,
-/* Buttons*/ .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
+/* Buttons*/ .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover,
+/* Content boxes */ .collapsible.popout > li, .collapsible.popout > li.active {
 	box-shadow: none;
 }
 
