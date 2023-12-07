@@ -304,13 +304,12 @@ button:not(.fr-btn):hover {
 /**
 * INPUT FIELDS
 */
-/*.robaws-combo-field-container */
 .robaws-input-field-container {
   background-color: var(--base-ultra-light);
   border: 0;
   /* Icons */
 }
-.robaws-input-field-container .amber-text.text-darken-1 {
+.robaws-input-field-container .material-icons.amber-text.text-darken-1 {
   color: var(--primary) !important;
 }
 
