@@ -337,7 +337,7 @@ header nav .nav-wrapper > ul:first-of-type span {
   font-weight: bold;
 }
 header nav .nav-wrapper a.button-collapse {
-  width: 43px;
+  width: 43px !important;
 }
 header nav .nav-wrapper a.button-collape i {
   transform: scaleX(0.8) scaleY(1.1);
