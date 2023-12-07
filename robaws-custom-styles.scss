@@ -372,7 +372,12 @@ header {
       }
       
       nav .nav-wrapper > ul:first-of-type span {
+            background-color: var(--secondary-dark);
+            color: var(--base-ultra-light);
             font-weight: bold;
+            line-height: 1;
+            padding: 6px 12px;
+            border-radius: 5px;
       }
       
       nav .nav-wrapper a.button-collapse {
