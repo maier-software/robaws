@@ -302,6 +302,16 @@ button:not(.fr-btn):hover {
   background-color: var(--secondary);
 }
 
+/**
+* INPUT FIELDS
+*/
+.robaws-combo-field-container .robaws-input-field-container,
+.robaws-input-field:not(.robaws-combo-text-field) {
+  background-color: var(--base-ultra-light);
+  border: 0;
+  padding: 6px !important;
+}
+
 /* DELETE BOX-SHADOW */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav,
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover,
