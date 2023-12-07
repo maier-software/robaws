@@ -335,7 +335,6 @@ header nav button.blue-grey.darken-3 {
 header nav button.blue-grey.darken-3 img {
   height: 36px !important;
   padding: 4px;
-  border-radius: 50%;
 }
 header nav {
   border-bottom: 1px solid var(--secondary-dark-trans-40);
