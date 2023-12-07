@@ -498,17 +498,17 @@ i.left {
   /* Artikel */
   /* Betriebsmittel */
   /* Anlagen-Tracking */
+  /* Fracht */
   /* Lagerverwaltung */
   /* Projektplannung */
   /* Tagesplan */
   /* Mitarbeiter */
   /* Auftragsberichte */
+  /* Zeitregistrierung */
   /* Rechnungen */
   /* Eingangsrechnungen */
   /* Nachtragsangebot */
   /* Anspruchserklärungen */
-  /* Zeitregistrierung */
-  /* Fracht */
   /* Kasse */
   /* Auswertung */
 }
@@ -547,46 +547,46 @@ i.left {
 .side-nav li:nth-child(19) {
   order: 11;
 }
-.side-nav li:nth-child(20) {
+.side-nav li:nth-child(11) {
   order: 12;
 }
-.side-nav li:nth-child(23) {
+.side-nav li:nth-child(20) {
   order: 13;
+}
+.side-nav li:nth-child(23) {
+  order: 14;
   border-top: 1px solid var(--secondary-dark-trans-40);
 }
 .side-nav li:nth-child(22) {
-  order: 14;
-}
-.side-nav li:nth-child(21) {
   order: 15;
 }
-.side-nav li:nth-child(9) {
+.side-nav li:nth-child(21) {
   order: 16;
 }
-.side-nav li:nth-child(12) {
+.side-nav li:nth-child(9) {
   order: 17;
+}
+.side-nav li:nth-child(10) {
+  order: 18;
+}
+.side-nav li:nth-child(12) {
+  order: 19;
   border-top: 1px solid var(--secondary-dark-trans-40);
 }
 .side-nav li:nth-child(16) {
-  order: 18;
-}
-.side-nav li:nth-child(7) {
-  order: 19;
-}
-.side-nav li:nth-child(8) {
   order: 20;
 }
-.side-nav li:nth-child(10) {
-  order: 16;
+.side-nav li:nth-child(7) {
+  order: 21;
 }
-.side-nav li:nth-child(11) {
-  order: 9;
+.side-nav li:nth-child(8) {
+  order: 22;
 }
 .side-nav li:nth-child(13) {
-  order: 25;
+  order: 23;
 }
 .side-nav .side-nav li:nth-child(24) {
-  order: 24;
+  order: 27;
   border-top: 1px solid var(--secondary-dark-trans-40);
 }
 
