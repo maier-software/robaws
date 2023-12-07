@@ -441,48 +441,36 @@ header nav button.blue-grey.darken-3 + ul.dropdown-content a {
   background-color: transparent !important;
   border-right: 1px solid var(--secondary-dark-trans-40);
 }
-
-/*
-.side-nav li.active {
-	background-color: var(--secondary) !important;
-}
-*/
-.side-nav li.active a {
+.side-nav.blue-grey.darken-1 li.active a {
   color: var(--secondary) !important;
 }
-
-.side-nav li.active i,
-.side-nav li.active i.amber-text.text-darken-1 {
+.side-nav.blue-grey.darken-1 li.active i,
+.side-nav.blue-grey.darken-1 li.active i.amber-text.text-darken-1 {
   color: var(--secondary) !important;
 }
-
-body .side-nav li:hover {
+.side-nav.blue-grey.darken-1 li:hover {
   background-color: var(--secondary-trans-20) !important;
 }
-
-.side-nav li a {
+.side-nav.blue-grey.darken-1 li a {
   font-size: 0.8rem;
   height: 36px;
   color: var(--secondary-dark) !important;
   background-color: initial !important;
 }
-
-.side-nav li a.blue-grey.darken-3 {
+.side-nav.blue-grey.darken-1 li a.blue-grey.darken-3 {
   background-color: var(--base-ultra-light) !important;
 }
-
-ul.side-nav i {
+.side-nav.blue-grey.darken-1 i {
   font-size: 1.6em;
   width: 1.6rem;
   color: var(--secondary-dark) !important;
 }
-
-i.left {
+.side-nav.blue-grey.darken-1 i.left {
   margin-right: 5px;
 }
 
 /**
-* LINKS
+* LEFT SIDEBAR LINK ORDER
 */
 .side-nav {
   display: flex;
