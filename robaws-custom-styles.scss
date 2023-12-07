@@ -311,13 +311,12 @@ button:not(.fr-btn) {
 /**
 * INPUT FIELDS
 */
-/*.robaws-combo-field-container */.robaws-input-field-container/*,
-.robaws-input-field:not(.robaws-combo-text-field) */ {
+.robaws-input-field-container {
       background-color: var(--base-ultra-light);
       border: 0;
 
       /* Icons */
-      .amber-text.text-darken-1 {
+      .material-icons.amber-text.text-darken-1 {
             color: var(--primary) !important;
       }
 }
